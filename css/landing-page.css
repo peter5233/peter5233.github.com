@@ -21,8 +21,17 @@ h6 {
     font-weight: 700;
 }
 
+.topnav-brand{
+    padding:0px;
+    width: 120px;
+    background-image: url("../img/wiihey.png");
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .topnav {
-    font-size: 14px; 
+    font-size: 16px; 
 }
 
 .lead {
@@ -37,7 +46,7 @@ h6 {
     color: #f8f8f8;
     /*background: url(../img/intro-bg.jpg) no-repeat center center;*/
     /*background: url(../img/gw1.png);*/
-    background: url(../img/gw6.jpg) no-repeat center center;
+    background: url(../img/gw8.jpg) no-repeat center center;
     background-position: center;
     background-size: cover;
 }
@@ -50,18 +59,18 @@ h6 {
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.6);
     font-size: 4em;
 }
 
 .intro-divider {
-    width: 400px;
+    width: 300px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+.intro-message > h2 {
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.6);
 }
 
 @media(max-width:767px) {
@@ -126,7 +135,7 @@ h6 {
 
 .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.6);
     font-size: 3em;
 }
 
