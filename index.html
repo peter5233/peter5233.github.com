@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>首页 | 威惠科技有限公司</title>
+    <title>首页 | 威惠科技</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
     <!-- <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css"> -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via  -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -46,19 +46,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav topnav-brand" href="#"></a>
+                <a class="navbar-brand topnav topnav-brand" href="./index.html"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about">首页</a>
+                    <li class="active">
+                        <a href="./index.html">首页</a>
                     </li>
                     <li>
-                        <a href="#services">文档</a>
+                        <a href="./products.html">产品</a>
                     </li>
                     <li>
-                        <a href="#contact">关于</a>
+                        <a href="./solutions.html">方案</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">关于</a>
                     </li>
                 </ul>
             </div>
@@ -84,7 +87,7 @@
                                 <div class="col-md-5">
                                 </div>
                                 <div class="col-md-2">
-                                <a href="#" class="btn btn-default btn-lg btn-block"><i class="fa fa-fire fa-fw"></i> <span class="network-name">立即体验</span></a>
+                                <a href="#try" class="btn btn-default btn-lg btn-block"><i class="fa fa-fire fa-fw"></i> <span class="network-name">立即体验</span></a>
                                 </div>
                                 <div class="col-md-5">
                                 </div>
@@ -103,7 +106,7 @@
     <!-- Page Content -->
 
 	<!-- <a  name="services"></a> -->
-    <div class="content-section-a">
+    <div class="content-section-a" id="try">
 
         <div class="container">
             <div class="row">
@@ -113,11 +116,11 @@
                     <h2 class="section-heading">网关 GW-0x42</h2>
                     <p class="lead">GW-0x42是物联网网关设备，它将众多传感器节点的数据汇总到一起，然后上传到云端数据库：</p>
                     <ul class="lead">
-                        <li>基于Sub-GHz的长距离通信（大于2公里）；</li>
-                        <li>以太网、WiFi、蓝牙等多制式通信融合；</li>
+                        <li>基于Sub-GHz技术的长距离通信（大于2公里）；</li>
+                        <li>以太网、WiFi、蓝牙等多制式无线通信融合；</li>
                         <li>有源以太网（Power Over Ethernet）供电；</li>
                     </ul>
-                    <a href="#" target="_blank"><button type="button" class="btn btn-success btn-lg">查看详情</button></a>
+                    <a href="./products/gw.html" ><button type="button" class="btn btn-success btn-lg">查看详情</button></a>
 
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -133,10 +136,10 @@
                     <h2 class="section-heading">节点 ND-0x39</h2>
                     <p class="lead">ND-0x39是无线传感器节点，分布在整个网络区域之中，实时地监测设备或环境的状态：</p>
                     <ul class="lead">
-                        <li>通过Sub-GHz和网关进行长距离数据通信；</li>
+                        <li>通过Sub-GHz技术和网关进行数据通信；</li>
                         <li>可以适配多种工业监测传感器；</li>
                     </ul>
-                    <a href="#" target="_blank"><button type="button" class="btn btn-success btn-lg">查看详情</button></a>
+                    <a href="./products/node.html" ><button type="button" class="btn btn-success btn-lg">查看详情</button></a>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/product_node.png" alt="">
@@ -259,7 +262,7 @@
                             <div class="col-md-4">
                             </div>
                             <div class="col-md-4">
-                            <a href="#" class="btn btn-default btn-lg btn-block"><i class="fa fa-fire fa-fw"></i> <span class="network-name">立即体验</span></a>
+                            <a href="#try" class="btn btn-default btn-lg btn-block"><i class="fa fa-fire fa-fw"></i> <span class="network-name">立即体验</span></a>
                             </div>
                             <div class="col-md-4">
                             </div>
@@ -280,19 +283,17 @@
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
-                            <a href="#">首页</a>
+                            <a href="#">文档中心</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#about">文档</a>
+                            <a href="#">服务条款</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#services">关于</a>
+                            <a href="#">联系我们</a>
                         </li>
 
                     </ul>
-                    <p class="copyright text-muted ">Copyright &copy; 2016 威惠科技有限公司</p>
+                    <p class="copyright text-muted ">Copyright &copy; 2016 威惠科技</p>
                 </div>
             </div>
         </div>
