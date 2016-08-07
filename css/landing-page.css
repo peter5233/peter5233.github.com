@@ -46,7 +46,7 @@ h6 {
     color: #f8f8f8;
     /*background: url(../img/intro-bg.jpg) no-repeat center center;*/
     /*background: url(../img/gw1.png);*/
-    background: url(../img/gw8.jpg) no-repeat center center;
+    background: url(../img/gw10.jpg) no-repeat center center;
     background-position: center;
     background-size: cover;
 }
@@ -59,8 +59,10 @@ h6 {
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 4px 4px 5px rgba(0,0,0,0.6);
+    color: rgba(114,179,56,1);
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.8);
     font-size: 4em;
+
 }
 
 .intro-divider {
@@ -70,7 +72,10 @@ h6 {
 }
 
 .intro-message > h2 {
-    text-shadow: 3px 3px 4px rgba(0,0,0,0.6);
+    color: rgba(35,139,222,1);
+    /*color: rgba(35,139,202,1);;*/
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.8);
+    font-size: 2.5em;
 }
 
 @media(max-width:767px) {
@@ -115,6 +120,12 @@ h6 {
     border-bottom: 1px solid #e7e7e7;
 }
 
+.content-section-c {
+    padding: 50px 0;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
 .section-heading {
     margin-bottom: 30px;
 }
@@ -125,18 +136,27 @@ h6 {
     border-top: 3px solid #e7e7e7;
 }
 
+.section-heading-spacer2 {
+    float: center;
+    width: 300px;
+    border-top: 3px solid #e7e7e7;
+}
+
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
     /*background: url(../img/iot5.jpg) no-repeat center center;*/
-    background: url(../img/factory2.jpg) no-repeat center center;
+    background: url(../img/background/b24.jpg) ;
     background-size: cover;
 }
 
 .banner h2 {
     margin: 0;
-    text-shadow: 3px 3px 4px rgba(0,0,0,0.6);
-    font-size: 3em;
+    color: rgba(114,179,56,1);
+    /*color: rgba(68,157,68,1);*/
+    /*color: rgba(35,139,222,1);*/
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.8);
+    font-size: 2.5em;
 }
 
 .banner ul {
