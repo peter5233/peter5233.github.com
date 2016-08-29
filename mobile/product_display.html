@@ -45,23 +45,23 @@
 				<div data-role="navbar">
 					<ul>
 						<li><a href="product_node.html" ><i class="fa fa-cube fa-2x"></i> <br /> 传感单元</a></li>
-						<li><a href="product_gateway.html" class="ui-btn-active"><i class="fa fa-cubes fa-2x"></i> <br /> 智能网关</a></li>
+						<li><a href="product_gateway.html"><i class="fa fa-cubes fa-2x"></i> <br /> 智能网关</a></li>
 						<li><a href="product_server.html" ><i class="fa fa-server fa-2x"></i> <br /> 微型服务器</a></li>
-						<li><a href="product_display.html" ><i class="fa fa-desktop fa-2x"></i> <br /> 显示终端</a></li>
+						<li><a href="product_display.html" class="ui-btn-active"><i class="fa fa-desktop fa-2x"></i> <br /> 显示终端</a></li>
 					</ul>
 				</div>
 			</div>
 
 			<div data-role="content" data-theme="a">
-				<h2>智能网关</h2>
+				<h2>显示终端</h2>
 				<hr />
-				<p>网关是物联网节点与传统通信网络的纽带。它汇集了网络中传感器的数据，并上传到云端数据库。通过它，也可以管理底层的各个节点，了解其工作状态，实现远程控制。</p>
-				<p>网关典型可支持200个节点接入，支持远程固件升级，符合 3C、FCC、CE、ROSH 等认证。</p>
+				<p>基于安全性的考虑，物联网有时是一个独立的网络系统，用户的手机或电脑无法直接获取物联网信息，这样就需要在现场部署具有显示能力的硬件设备。</p>
+				<p>这里介绍一款显示终端，它为现场环境提供了人机交互界面。</p>
 
-				<img class="auto_size_img" src="images/gw1.jpg" >
+				<img class="auto_size_img" src="images/display2.jpg" >
 				<p style="text-align: center">图片1</p>
 
-				<img class="auto_size_img" src="images/gw2.jpg" >
+				<img class="auto_size_img" src="images/display1.jpg" >
 				<p style="text-align: center">图片2</p>
 
 				<br /><br />
@@ -75,74 +75,85 @@
 				    </thead>
 
 				    <tbody>
+
 				        <tr class="pure-table-odd">
-				            <td>网络支持</td>
-				            <td>TCP/IP、DHCP、ARP、RARP，TCP，UDP</td>
+				            <td>主芯片</td>
+				            <td>Amlogic S812</td>
 				        </tr>
 
 				        <tr>
-				            <td>传输距离</td>
-				            <td>BLE:0.5m-15m，433MHz: 30m-1000m</td>
+				            <td>CPU</td>
+				            <td>四核ARM Cortex-A9, 最高2.0GHz</td>
 				        </tr>
 
 				        <tr class="pure-table-odd">
-				            <td>工作电源</td>
-				            <td>商用版：12V/0.5A DC；<br />工业版：48V/0.1A DC或PoE IEEE 802.3AF</td>
+				            <td>GPU</td>
+				            <td>八核Mali-450, 最高600MHz</td>
 				        </tr>
 
 				        <tr>
-				            <td>UPS</td>
-				            <td>500mAH，自动充电</td>
+				            <td>内存</td>
+				            <td>1GB DDR3(2GB可选)</td>
 				        </tr>
 
 				        <tr class="pure-table-odd">
-				            <td>天线规格</td>
-				            <td>2.4GHz、433MHz</td>
+				            <td>存储</td>
+				            <td>8GB eMMC, 最高32GB</td>
 				        </tr>
 
 				        <tr>
+				            <td>显示</td>
+				            <td>21.5” TFT, 1920×1080</td>
+				        </tr>
+
+				        <tr class="pure-table-odd">
+				            <td>视频解码</td>
+				            <td>4Kp30 HEVC/MPEG/VC-1/AVS+/H.264</td>
+				        </tr>
+
+				        <tr>
+				            <td>视频编码</td>
+				            <td>H.264, 1080P@60fps</td>
+				        </tr>
+
+				        <tr class="pure-table-odd">
+				            <td>摄像头</td>
+				            <td>支持</td>
+				        </tr>
+
+				        <tr>
+				            <td>音频</td>
+				            <td>支持</td>
+				        </tr>
+
+				        <tr class="pure-table-odd">
+				            <td>通信</td>
+				            <td>以太网，WiFi，3G</td>
+				        </tr>
+
+				        <tr>
+				            <td>电源</td>
+				            <td>12V/2500mA</td>
+				        </tr>
+
+				        <tr class="pure-table-odd">
+				            <td>尺寸</td>
+				            <td>539.11×332.21×39.75mm</td>
+				        </tr>
+
+				        <tr>
+				            <td>操作系统</td>
+				            <td>Android 4.4+</td>
+				        </tr>
+
+				        <tr class="pure-table-odd">
 				            <td>工作温度</td>
-				            <td>-20℃-+75℃</td>
-				        </tr>
-
-				        <tr class="pure-table-odd">
-				            <td>安全认证</td>
-				            <td>AES 128位</td>
+				            <td>-10℃～+40℃</td>
 				        </tr>
 
 				        <tr>
-				            <td>MCU</td>
-				            <td>32位高性能微控制器</td>
-				        </tr>
-
-				        <tr class="pure-table-odd">
-				            <td>RAM</td>
-				            <td>4M Byte</td>
-				        </tr>
-
-				        <tr>
-				            <td>Flash</td>
-				            <td>2M Byte</td>
-				        </tr>
-
-				        <tr class="pure-table-odd">
-				            <td>Ethernet</td>
-				            <td>10/100M自适应</td>
-				        </tr>
-
-				        <tr>
-				            <td>WiFi</td>
-				            <td>802.11 b/g/n</td>
-				        </tr>
-
-				        <tr class="pure-table-odd">
-				            <td>Sub-G</td>
-				            <td>433M ISM</td>
-				        </tr>
-
-				        <tr>
-				            <td>Bluetooth</td>
-				            <td>V4.2, BLE</td>
+				            <td>工作湿度</td>
+				            <td>80% @40℃</td>
 				        </tr>
 
 				    </tbody>

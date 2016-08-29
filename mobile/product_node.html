@@ -44,8 +44,8 @@
 
 				<div data-role="navbar">
 					<ul>
-						<li><a href="product_node.html" ><i class="fa fa-cube fa-2x"></i> <br /> 传感单元</a></li>
-						<li><a href="product_gateway.html" class="ui-btn-active"><i class="fa fa-cubes fa-2x"></i> <br /> 智能网关</a></li>
+						<li><a href="product_node.html" class="ui-btn-active"><i class="fa fa-cube fa-2x"></i> <br /> 传感单元</a></li>
+						<li><a href="product_gateway.html"><i class="fa fa-cubes fa-2x"></i> <br /> 智能网关</a></li>
 						<li><a href="product_server.html" ><i class="fa fa-server fa-2x"></i> <br /> 微型服务器</a></li>
 						<li><a href="product_display.html" ><i class="fa fa-desktop fa-2x"></i> <br /> 显示终端</a></li>
 					</ul>
@@ -53,15 +53,16 @@
 			</div>
 
 			<div data-role="content" data-theme="a">
-				<h2>智能网关</h2>
+				<h2>传感单元</h2>
 				<hr />
-				<p>网关是物联网节点与传统通信网络的纽带。它汇集了网络中传感器的数据，并上传到云端数据库。通过它，也可以管理底层的各个节点，了解其工作状态，实现远程控制。</p>
-				<p>网关典型可支持200个节点接入，支持远程固件升级，符合 3C、FCC、CE、ROSH 等认证。</p>
+				<p>传感单元由传感器和无线模块构成，众多传感单元形成网络拓扑，分布式监测现场数据。</p>
+				<p>无线模块支持433MHz、低功耗蓝牙等通信制式。无线通信的好处是避免了现场布线，具有极低的施工成本，可以在一个区域轻易部署成百上千个传感单元。</p>
+				<p>传感单元定期自动完成监测任务，采集温度、湿度、振动等变量。它采用低功耗设计，续航时间长达一年以上。</p>
 
-				<img class="auto_size_img" src="images/gw1.jpg" >
+				<img class="auto_size_img" src="images/node1.jpg" >
 				<p style="text-align: center">图片1</p>
 
-				<img class="auto_size_img" src="images/gw2.jpg" >
+				<img class="auto_size_img" src="images/node2.jpg" >
 				<p style="text-align: center">图片2</p>
 
 				<br /><br />
@@ -76,73 +77,63 @@
 
 				    <tbody>
 				        <tr class="pure-table-odd">
-				            <td>网络支持</td>
-				            <td>TCP/IP、DHCP、ARP、RARP，TCP，UDP</td>
-				        </tr>
-
-				        <tr>
-				            <td>传输距离</td>
-				            <td>BLE:0.5m-15m，433MHz: 30m-1000m</td>
-				        </tr>
-
-				        <tr class="pure-table-odd">
-				            <td>工作电源</td>
-				            <td>商用版：12V/0.5A DC；<br />工业版：48V/0.1A DC或PoE IEEE 802.3AF</td>
-				        </tr>
-
-				        <tr>
-				            <td>UPS</td>
-				            <td>500mAH，自动充电</td>
-				        </tr>
-
-				        <tr class="pure-table-odd">
 				            <td>天线规格</td>
 				            <td>2.4GHz、433MHz</td>
 				        </tr>
 
 				        <tr>
-				            <td>工作温度</td>
-				            <td>-20℃-+75℃</td>
+				            <td>传输距离</td>
+				            <td>BLE:0.5m-15m，433MHz:30m-1000m</td>
 				        </tr>
 
 				        <tr class="pure-table-odd">
+				            <td>工作电源</td>
+				            <td>5V DC电池供电</td>
+				        </tr>
+
+				        <tr>
+				            <td>续航时间</td>
+				            <td>1年以上（典型值）</td>
+				        </tr>
+
+				        <tr class="pure-table-odd">
+				            <td>工作温度</td>
+				            <td>-20℃-+90℃</td>
+				        </tr>
+
+				        <tr>
 				            <td>安全认证</td>
 				            <td>AES 128位</td>
 				        </tr>
 
+				        <tr class="pure-table-odd">
+				            <td>外壳体积</td>
+				            <td>36*52*20mm</td>
+				        </tr>
+
 				        <tr>
-				            <td>MCU</td>
-				            <td>32位高性能微控制器</td>
+				            <td>安装方式</td>
+				            <td>螺栓固定、粘接剂固定、蜡固定等</td>
 				        </tr>
 
 				        <tr class="pure-table-odd">
-				            <td>RAM</td>
-				            <td>4M Byte</td>
+				            <td>温度传感</td>
+				            <td>接触式测温热电偶贴片</td>
 				        </tr>
 
 				        <tr>
-				            <td>Flash</td>
-				            <td>2M Byte</td>
+				            <td>测温范围</td>
+				            <td>0-90℃（温度）</td>
 				        </tr>
 
 				        <tr class="pure-table-odd">
-				            <td>Ethernet</td>
-				            <td>10/100M自适应</td>
+				            <td>振动传感</td>
+				            <td>电容式MEMS加速度计</td>
 				        </tr>
 
 				        <tr>
-				            <td>WiFi</td>
-				            <td>802.11 b/g/n</td>
-				        </tr>
-
-				        <tr class="pure-table-odd">
-				            <td>Sub-G</td>
-				            <td>433M ISM</td>
-				        </tr>
-
-				        <tr>
-				            <td>Bluetooth</td>
-				            <td>V4.2, BLE</td>
+				            <td>测振范围</td>
+				            <td>三轴，±16g重力加速度</td>
 				        </tr>
 
 				    </tbody>
