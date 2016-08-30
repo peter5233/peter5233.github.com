@@ -1,60 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>威惠智能</title>
 
-		<title>威惠智能</title>
+    <link rel="stylesheet" 		href="themes/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" 		href="themes/jqm-demos.css">
+	<link rel="shortcut icon" 	href="themes/favicon.ico">
+    <link rel="stylesheet" 		href="themes/googlefontsapi.css">
+	<link rel="stylesheet"		href="themes/font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" 		href="themes/Bootstrap.css">
+	<link rel="stylesheet" 		href="themes/pure-min.css">
 
-		<link rel="stylesheet" href="themes/Bootstrap.css">
-		<!-- <link rel="stylesheet" href="../css/bootstrap.css"> -->
-		<!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+	<script src="themes/jquery.js"></script>
+    <script src="themes/index.js"></script>
+    <script src="themes/jquery.mobile-1.4.5.min.js"></script>
 
-		<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.0.min.css" />
-		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
-		<link href="themes/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="themes/pure-min.css">
+</head>
 
-		<script src="themes/jquery-1.8.2.min.js"></script>
-		<script src="themes/jquery.mobile-1.4.0.min.js"></script>
-		<!-- <script src="themes/jquery-3.1.0.min.js"></script> -->
-		<!-- <script src="themes/jquery.mobile-1.4.5.min.js"></script>		 -->
-    	<!-- <script src="../js/bootstrap.min.js"></script> -->
+<body>
+<div data-role="page" class="jqm-demos" id="panel-fixed-page1" data-title="Panel fixed positioning"  data-theme="a">
 
-  <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
-  <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    	 -->
+    <div data-role="header" data-position="fixed"  data-theme="a" >
+        <h1>威惠智能</h1>
+		<!-- <img src="images/wiihey2.png"  height="48px"> -->
+		<!-- <p style="text-align: center"><img src="images/wiihey1.png"  height="24px"></p> -->
 
-	    <style type="text/css">
-			.auto_size_img
-			{
-			    max-width: 100%;
-			    min-width: 300px;
-			    height: auto;
-			}
-	    </style>
+        <a href="./index.html" data-icon="home" data-iconpos="notext">Home</a>
+        <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
 
-	</head>
+		<div data-role="navbar" >
+			<ul>
+				<li><a href="solution_industry.html" class="ui-btn-active"><i class="fa fa-wrench fa-2x"></i> <br /> 物联网 <br />与工业监测</a></li>
+				<li><a href="solution_loans.html"><i class="fa fa-money fa-2x" data-theme="a"></i> <br /> 物联网 <br />与抵押贷款</a></li>
+				<li><a href="solution_due_diligence.html"><i class="fa fa-briefcase fa-2x"></i> <br /> 物联网 <br />与商业分析</a></li>
 
-	<body>
-		<div data-role="page" data-theme="a">
-			<div data-role="header" data-position="inline">
-				<!--<p style="text-align: center"><img src="images/wiihey1.png"  height="32px"></p>-->
-				<img src="images/wiihey2.png"  height="48px">
+			</ul>
+		</div>
 
-				<div data-role="navbar">
-					<ul>
-						<li><a href="solution_industry.html" class="ui-btn-active"><i class="fa fa-wrench fa-2x"></i> <br /> 物联网 <br />与工业监测</a></li>
-						<li><a href="solution_loans.html"><i class="fa fa-money fa-2x"></i> <br /> 物联网 <br />与抵押贷款</a></li>
-						<li><a href="solution_due_diligence.html"><i class="fa fa-briefcase fa-2x"></i> <br /> 物联网 <br />与商业分析</a></li>
+    </div><!-- /header -->
 
-					</ul>
-				</div>
-			</div>
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
 
-			<div data-role="content" data-theme="a">
 				<h2>智能化工业监测方案</h2>
-				<hr />
+				<!-- <hr /> -->
 				<p>点检是工厂、车间中的一项日常制度，目的是掌握设备状况，预防事故发生。传统的点检工作由人工来完成，现利用新型传感技术和无线通信手段，推出一种智能化的工业监测方案。</p>
 				<img class="auto_size_img" src="images/machine1.jpg" >
 				<p>本方案监测对象为电机、风机、水泵、变速器、空压机、升降机等机械设备。</p>
@@ -80,12 +70,26 @@
 
 				<br />
 
+	</div><!-- /content -->
+
+    <div data-role="footer" >
+    	<h4>Copyright © 2016 威惠智能</h4>
+    </div><!-- /footer -->
+
+	<div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="a" id="nav-panel">
+		<ul data-role="listview">
+            <li data-icon="bars"><a href="#" data-rel="close">菜单</a></li>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="product_gateway.html">产品</a></li>
+                <li><a href="solution_industry.html">方案</a></li>
+                <li><a href="about.html">关于</a></li>
+		</ul>
+
+	</div><!-- /panel -->
+
+</div><!-- /page -->
 
 
-			</div>
-		</div>
 
-
-
-	</body>
+</body>
 </html>
