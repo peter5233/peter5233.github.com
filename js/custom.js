@@ -137,7 +137,7 @@ $(function () {
 		// });
 
         //stats
-        jQuery('.appear').appear();
+        //jQuery('.appear').appear();
         var runOnce = true;
         jQuery(".stats").on("appear", function(data) {
             var counters = {};
