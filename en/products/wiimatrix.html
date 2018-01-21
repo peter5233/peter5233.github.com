@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<!--
+Author: Jiayan Li
+web: www.wiihey.com
+-->
+
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../img/favicon.ico" rel="shortcut icon">
+<title>WiiMatrix - The IoT Cloud Platform | WiiHey</title>
+
+<meta name="keywords" content="IoT Cloud Platform, Sensor Fusion, Big Data, KNN classification, neural network, FFT">
+<meta name="description" content="Access to all data collected by IoT devices, for data storing, processing, analysis, and visualization.
+
+">
+
+<!-- css -->
+<link href="../css/bootstrap.min.css" rel="stylesheet" />
+<link href="../css/style.css" rel="stylesheet" />
+<link href="../css/tgtable.css" rel="stylesheet" type="text/css" />
+<link id="t-colors" href="../skins/default.css" rel="stylesheet" />
+<link href="../css/languages.min.css" rel="stylesheet" />
+<link href="../css/dropdown-menu-fonts.css" rel="stylesheet" />
+<link rel="stylesheet" href="../css/jquery.fancybox.min.css" />
+
+</head>
+<body>
+
+
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="" width="199" height="52" /></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a class="root-menu" href="../index.html">Home</a></li>
+                        <li class="dropdown">
+                        	<a href="portfolio.html" class="dropdown-toggle root-menu" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Solutions <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu">
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html#factory">Industrial IoT</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../applications/vibration_monitoring_for_reducer.html">&nbsp;&nbsp;&raquo; Vibration monitoring</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../applications/solar_pv_monitoring.html">&nbsp;&nbsp;&raquo; Solar PV monitoring</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html#city">Smart City</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../applications/manhole_cover_monitoring.html">&nbsp;&nbsp;&raquo; Manhole cover monitoring</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../applications/parking_occupancy_detection.html">&nbsp;&nbsp;&raquo; Parking occupancy detection</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html#retail">Smart Retail</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../applications/people_counting_system.html">&nbsp;&nbsp;&raquo; People counting system</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../applications/smart_shelf_management_system.html">&nbsp;&nbsp;&raquo; Smart shelf management</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html">View All</a></li>
+                            </ul>
+						</li>
+                        <li class="dropdown active">
+                            <a href="#" class="dropdown-toggle root-menu" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Products <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-menu-layer-1" href="../products.html#acquisition">Data Acquisition</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiimine.html">&nbsp;&nbsp;&raquo; WiiMine</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiiung.html">&nbsp;&nbsp;&raquo; WiiUNG</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiilsw.html">&nbsp;&nbsp;&raquo; WiiLSW</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../products.html#transmission">Data Transmission</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiigate.html">&nbsp;&nbsp;&raquo; WiiGate</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/hohnet.html">&nbsp;&nbsp;&raquo; HOHNet&trade;</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../products.html#process">Process & Analysis</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiimatrix.html">&nbsp;&nbsp;&raquo; WiiMatrix</a></li>
+                                <li><a class="dropdown-menu-layer-1" href="../products.html">View All</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="root-menu" href="../about.html">Company</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="breadcrumb">
+					<li><a href="../index.html"><i class="fa fa-home"></i> Home</a><i class="icon-angle-right"></i></li>
+					<li><a href="../products.html">IoT products</a><i class="icon-angle-right"></i></li>
+					<li class="active">WiiMatrix</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="content">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-lg-9">
+				<h1 class="small">WiiMatrix - The IoT Cloud Platform</h1>
+
+				<!-- <br /> -->
+				<div  class="row">
+					<div class="col-sm-9 col-md-8">
+						<br /><br /><br />
+						<p class = "big-p-font">From small sensors to big data. A web-based platform provides easy access to all data collected by IoT devices, for data storing, processing, analysis, and visualization.</p>
+					</div>
+					<div class="col-sm-3 col-md-4">
+						<img class="img-responsive" src="../img/products/cloud2.jpg" alt="WiiMatrix - The IoT Cloud Platform">
+					</div>
+				</div>
+
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#Overview" data-toggle="tab" class="tab-name"><i class="icon-briefcase"></i>Overview</a></li>
+					<li><a href="#Features" data-toggle="tab" class="tab-name">Features</a></li>
+					<li><a href="#Specifications" data-toggle="tab" class="tab-name">Specifications</a></li>
+					<li><a href="#Topology" data-toggle="tab" class="tab-name">Topology</a></li>
+					<li><a href="#Gallery" data-toggle="tab" class="tab-name">Gallery</a></li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane active" id="Overview">
+						<br />
+						<div class="row">
+							<div class="col-md-6">
+								<div class="text-left">
+				                    <img src="../img/products/wiimatrix/82.jpg" alt="" width="400"/>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="text-right">
+									<br /><br />
+									<h4>Different sensor data, in a single platform</h4>
+									<p>IoT application works better when different kinds of sensor data are integrated together. WiiMatrix allows you to access a variety of sensor information over the web, provides an open and unified way to interact IoT devices, data, and applications.</p>
+								</div>
+							</div>
+						</div>
+
+						<br /><br /><br />
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="text-left">
+									<br />
+									<h4>Easy condition monitoring & real-time alerts</h4>
+									<p>Users associate specific sensors with the remote asset,  set warning and alert levels, enable long-term condition monitoring of the asset's behavior. When failure happens, WiiMatrix will raise alarm and deliver actionable information to decision makers.</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="text-right">
+				                    <img src="../img/products/wiimatrix/3.jpg" alt="" width="400"/>
+								</div>
+							</div>
+						</div>
+
+						<br /><br /><br />
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="text-left">
+				                    <img src="../img/products/wiimatrix/91.jpg" alt="" width="400"/>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="text-right">
+									<br /><br />
+									<h4>Run analytical algorithms on your sensor data</h4>
+									<p>As the volume of data grows, only AI with deep machine learning capability is able to crunch it effectively. WiiMatrix  supports analytical methods of AI-based classification, spectrum transform, statistical calculations – all enable meaningful data processing.</p>
+								</div>
+							</div>
+						</div>
+
+						<br /><br /><br />
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="text-left">
+									<br />
+									<h4>API for integration with your IT systems</h4>
+									<p>WiiMatrix includes an API that allows users to manage and control their IoT devices and data streams. Being RESTful and JSON encoded, the API is developer friendly. Here is an example of integrating IoT data with customer's GIS infrastructure.</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="text-right">
+				                    <img src="../img/products/wiimatrix/63.jpg" alt="" width="400"/>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+					<div class="tab-pane" id="Features">
+
+						<br />
+
+						<h4>Features</h4>
+						<ul>
+							<li>IoT data displaying and visualizing;</li>
+							<li>Remote IoT device control and management;</li>
+							<li>Enable long-term condition monitoring and automatic fault alert;</li>
+							<li>Include analytical tools like FFT, Wavelet, AI-based classification, statistical measurement, etc;</li>
+							<li>Customizable monthly, daily and hourly reports;</li>
+							<li>Export data to various formats including  Excel, CSV, JSON, HTML;</li>
+							<li>Interactive dashboards accessible from any web-enabled device;</li>
+							<li>API for integration with external information systems;</li>
+						</ul>
+						<br />
+
+						<h4>Applications</h4>
+						<ul>
+							<li>Asset condition monitoring and management;</li>
+							<li>GIS and GeoWeb infrastructure;</li>
+							<li>Process control;</li>
+						</ul>
+						<br />
+					</div>
+
+					<div class="tab-pane" id="Specifications">
+						<table class="tgtable">
+						<tbody>
+						<tr>
+						<th  colspan="2">General</th>
+						</tr>
+						<tr>
+						<td>Supported web browsers</td>
+						<td>Google Chrome (recommended);<br />Mozilla Firefox;<br />Apple Safari;<br />Micrsoft Edge;<br />Internet Explorer 11;</td>
+						</tr>
+						<tr>
+						<td>Web API interfaces</td>
+						<td>RESTful API and JSON encoded</td>
+						</tr>
+						<td>Data storage</td>
+						<td>Storage of every complete time series data set collected from a sensor node</td>
+						</tr>
+						<tr>
+						<th colspan="2">System settings</th>
+						</tr>
+						<tr>
+						<td>User access</td>
+						<td>Selective permission levels for users and administrators </td>
+						</tr>
+						<tr>
+						<td>Sensor pairing</td>
+						<td>Assign sensors (IDs) to specific asset</td>
+						</tr>
+						<tr>
+						<tr>
+						<td>Sensor control</td>
+						<td>Configuration of sensor functions including sampling rate, collection frequency, averaging, data uploading rate, etc.</td>
+						</tr>
+						<tr>
+						<tr>
+						<th  colspan="2">Data</th>
+						</tr>
+						<tr>
+						<td>Type of sensor data supported</td>
+						<td>Acceleration, angle, temperature, humidity, pressure, RSSI, voltage, open/close status, luminosity, location information, counting, etc.</td>
+						</tr>
+						<tr>
+						<td>Data visualization</td>
+						<td>Trending of user-specified sensor data;<br />Viewing of individual time series or data axises;<br />Multiple data views including GeoWeb maps and trend charts;<br />Intelligent single-point or time-averaged baselining;<br />Comparative review data of same type on one chart;</td>
+						</tr>
+						<tr>
+						<td>Data analysis</td>
+						<td>FFT, Wavelet transforms, KNN classification, neural network, common statistical tools, etc.</td>
+						</tr>
+						<tr>
+						<th  colspan="2">Alarms and notifications</th>
+						</tr>
+						<tr>
+						<td>Alarms settings</td>
+						<td>Set warnings and alarms for exceedances</td>
+						</tr>
+						<tr>
+						<td>Message notifications</td>
+						<td>Email, SMS, WeChat notifications of warnings and alarms</td>
+						</tr>
+
+						</tbody>
+						</table>
+
+
+					</div>
+
+					<div class="tab-pane" id="Topology">
+						<p>.</p>
+						<br />
+
+						<img src="../img/products/topology/top_v5_wiimatrix.png" alt="wiimatrix in hohnet topology" class="img-responsive"  />
+					</div>
+
+					<div class="tab-pane" id="Gallery">
+				        <div class="row text-center">
+				            <div class="col-md-4 col-sm-6">
+				                <div class="thumbnail">
+									<a data-fancybox="gallery"
+			                        data-srcset="../img/products/wiimatrix/03.jpg"
+			                        data-caption="WiiMatrix: Web dashboard 1"
+			                        href="../img/products/wiimatrix/03.jpg"><img src="../img/products/wiimatrix/03.jpg" alt=""></a>
+			                        <p>Web dashboard 1</p>
+				                </div>
+				            </div>
+
+				            <div class="col-md-4 col-sm-6">
+				                <div class="thumbnail">
+									<a data-fancybox="gallery"
+			                        data-srcset="../img/products/wiimatrix/07.jpg"
+			                        data-caption="WiiMatrix: Web dashboard 2"
+			                        href="../img/products/wiimatrix/07.jpg"><img src="../img/products/wiimatrix/07.jpg" alt=""></a>
+			                        <p>Web dashboard 2</p>
+				                </div>
+				            </div>
+
+				            <div class="col-md-4 col-sm-6">
+				                <div class="thumbnail">
+									<a data-fancybox="gallery"
+			                        data-srcset="../img/products/wiimatrix/05.jpg"
+			                        data-caption="WiiMatrix GIS/Geo UI "
+			                        href="../img/products/wiimatrix/05.jpg"><img src="../img/products/wiimatrix/05.jpg" alt=""></a>
+			                        <p>Web GIS/GeoWeb UI</p>
+				                </div>
+				            </div>
+
+				            <div class="col-md-4 col-sm-6">
+				                <div class="thumbnail">
+									<a data-fancybox="gallery"
+			                        data-srcset="../img/products/wiimatrix/02.jpg"
+			                        data-caption="WiiMatrix: alert & notification on mobile APP"
+			                        href="../img/products/wiimatrix/02.jpg"><img src="../img/products/wiimatrix/02.jpg" alt=""></a>
+			                        <p>Alert & notification</p>
+				                </div>
+				            </div>
+
+				            <div class="col-md-4 col-sm-6">
+				                <div class="thumbnail">
+									<a data-fancybox="gallery"
+			                        data-srcset="../img/products/wiimatrix/01.jpg"
+			                        data-caption="WiiMatrix transform algorithms 1"
+			                        href="../img/products/wiimatrix/01.jpg"><img src="../img/products/wiimatrix/01.jpg" alt=""></a>
+			                        <p>Processing result 1</p>
+				                </div>
+				            </div>
+
+				            <div class="col-md-4 col-sm-6">
+				                <div class="thumbnail">
+									<a data-fancybox="gallery"
+			                        data-srcset="../img/products/wiimatrix/08.jpg"
+			                        data-caption="WiiMatrix transform algorithms 2"
+			                        href="../img/products/wiimatrix/08.jpg"><img src="../img/products/wiimatrix/08.jpg" alt=""></a>
+			                        <p>Processing result 2</p>
+				                </div>
+				            </div>
+				        </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3">
+				<aside class="right-sidebar">
+				<br />
+				<div class="widget">
+					<img src="../img/mesh_logo2.png" alt="" width="192"/>
+				</div>
+
+				 <div class="widget">
+				 	<h4 class="widgetheading">Tags</h4>
+				 	<ul class="tags">
+				 		<li><a href="../products.html#process">Data process</a></li>
+				 		<li><a href="../products.html">All</a></li>
+				 	</ul>
+				 </div>
+
+				<br />
+				<div class="widget">
+					<h4 class="widgetheading">Downloads</h4>
+					<ul class="recent">
+						<li>
+							<img src="../img/pdf_icon.png" class="pull-left" alt=""  width="24"/>
+							<h6><a href="../resources/spec_wiimatrix.pdf">Spec: WiiMatrix Cloud Platform</a></h6>
+						</li>
+					</ul>
+				</div>
+
+<!-- 				<div class="widget">
+					<h4 class="widgetheading">Related posts</h4>
+					<ul class="recent">
+						<li>
+							<img src="../img/products/gateway_sa64_icon.jpg" class="pull-left" alt=""  width="36"/>
+							<h6><a href="../products/wiisa64.html">WiiSA64 edge computing</a></h6>
+						</li>
+					</ul>
+				</div> -->
+				</aside>
+			</div>
+
+		</div>
+
+	</div>
+	</section>
+
+	<footer>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div>
+		            	<p class="copyright text-muted ">Copyright &copy; 2016 - 2017 WiiHey Technology</p>
+		            	<p class="copyright text-muted ">沪ICP备16040630号</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<ul class="social-network">
+						<li><a href="../about.html#email"  title="E-mail"><i class="fa fa-envelope-o"></i></a></li>
+						<li><a href="../about.html#phone"  title="Tel"><i class="fa fa-phone"></i></a></li>
+						<li><a href="../about.html#address" title="Address"><i class="fa fa-map-o"></i></a></li>
+						<li><a href="../about.html#wechat" title="Wechat"><i class="fa fa-wechat"></i></a></li>
+						<li><a href="../about.html#weibo" 	title="Blog"><i class="fa fa-weibo"></i></a></li>
+						<li>
+							<div class="btn-group dropup">
+							  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							    <span class="lang-sm lang-lbl" lang="en"></span> <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu " role="menu">
+							    <li><a href="http://www.wiihey.com/zh-CN/index.html" ><span class="lang-sm lang-lbl" lang="zh"></span></a></li>
+							    <li><a href="http://www.wiihey.com/en/index.html" ><span class="lang-sm lang-lbl" lang="en"></span></a></li>
+							  </ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+
+</div>
+
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<script src="../js/jquery.min.js"></script>
+<!-- <script src="../js/modernizr.custom.js"></script> -->
+<script src="../js/jquery.easing.1.3.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.appear.js"></script>
+<!-- <script src="../js/stellar.js"></script> -->
+<!-- <script src="../js/classie.js"></script> -->
+<!--<script src="../js/uisearch.js"></script>-->
+<!-- <script src="../js/jquery.cubeportfolio.min.js"></script> -->
+<!-- <script src="../js/google-code-prettify/prettify.js"></script> -->
+<!-- <script src="../js/animate.js"></script> -->
+<!-- <script src="../js/custom.js"></script> -->
+<script src="../js/jquery.fancybox.min.js"></script>
+
+
+
+</body>
+</html>

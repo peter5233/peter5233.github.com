@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<!--
+Author: Jiayan Li
+web: www.wiihey.com
+-->
+
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../img/favicon.ico" rel="shortcut icon">
+<title>Vibration monitoring of speed reducers | WiiHey</title>
+
+<meta name="keywords" content="Vibration monitoring, condition monitoring, IoT Wireless, smart factory, MEMS">
+<meta name="description" content="Vibration-based condition monitoring for speed reducers and gearboxs, IoT wireless online monitoring, MEMS accelerometer">
+
+<!-- css -->
+<link href="../css/bootstrap.min.css" rel="stylesheet" />
+<link href="../css/style.css" rel="stylesheet" />
+<link href="../css/tgtable.css" rel="stylesheet" type="text/css" />
+<link id="t-colors" href="../skins/default.css" rel="stylesheet" />
+<link id="bodybg" href="../bodybg/bg1.css" rel="stylesheet" type="text/css" />
+<link href="../css/languages.min.css" rel="stylesheet" />
+<link href="../css/dropdown-menu-fonts.css" rel="stylesheet" />
+
+</head>
+<body>
+
+
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="" width="199" height="52" /></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a class="root-menu" href="../index.html">Home</a></li>
+                        <li class="dropdown active">
+                        	<a href="portfolio.html" class="dropdown-toggle root-menu" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Solutions <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu">
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html#factory">Industrial IoT</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./vibration_monitoring_for_reducer.html">&nbsp;&nbsp;&raquo; Vibration monitoring</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./solar_pv_monitoring.html">&nbsp;&nbsp;&raquo; Solar PV monitoring</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html#city">Smart City</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./manhole_cover_monitoring.html">&nbsp;&nbsp;&raquo; Manhole cover monitoring</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./parking_occupancy_detection.html">&nbsp;&nbsp;&raquo; Parking occupancy detection</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html#retail">Smart Retail</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./people_counting_system.html">&nbsp;&nbsp;&raquo; People counting system</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./smart_shelf_management_system.html">&nbsp;&nbsp;&raquo; Smart shelf management</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html">View All</a></li>
+                            </ul>
+						</li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle root-menu" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Products <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-menu-layer-1" href="../products.html#acquisition">Data Acquisition</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiimine.html">&nbsp;&nbsp;&raquo; WiiMine</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiiung.html">&nbsp;&nbsp;&raquo; WiiUNG</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiilsw.html">&nbsp;&nbsp;&raquo; WiiLSW</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../products.html#transmission">Data Transmission</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiigate.html">&nbsp;&nbsp;&raquo; WiiGate</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/hohnet.html">&nbsp;&nbsp;&raquo; HOHNet&trade;</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../products.html#process">Process & Analysis</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiimatrix.html">&nbsp;&nbsp;&raquo; WiiMatrix</a></li>
+                                <li><a class="dropdown-menu-layer-1" href="../products.html">View All</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="root-menu" href="../about.html">Company</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="breadcrumb">
+					<li><a href="../index.html"><i class="fa fa-home"></i> Home</a><i class="icon-angle-right"></i></li>
+					<li><a href="../portfolio.html">IoT solutions</a><i class="icon-angle-right"></i></li>
+					<li class="active">Vibration monitoring</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9">
+				<h1 class="small">Vibration-based condition monitoring of speed reducers / gearboxs</h1>
+
+				<div class="solidline"><br /></div>
+
+				<h3>Introduction</h3>
+				<p>In the cement industry, speed reducers / gearboxs are present in virtually all key assets such as mills, crushers, rotary kilns. All of these depends on availability and drive technology of speed reducers / gearboxs. If they stop, the plant production stops.</p>
+
+				<p>Being critical to the plant production, speed reducers / gearboxs are always working under heavy stress. Therefore, special requirements are placed on monitoring their conditions.</p>
+
+				<div align="center">
+					<img class="nobottom" src="../img/applications/reducer/reducer_maintenance2.jpg" alt="maintenance of a speed reducer" />
+					<p class="img_desc">Maintenance of gearboxs</p>
+				</div>
+				<br />
+
+
+				<h3>Vibration monitoring system</h3>
+				<p>Vibrations are the basis for assessing machine conditions. Condition monitoring essentially comprises the measurement and recording of overall vibration values and operating parameters. It provides information and allows the diagnosis of the general machine condition or very specific ‘disorders’ of the machine.</p>
+
+				<p>WiiHey has brought up a new smart vibration monitoring system with MEMS and IoT technologies. Breakthroughs in MEMS technology make sensors much smaller and affordable. Nowadays with same budget, more sensors could be placed on machine components to precisely localize the vibrating source. While the IoT technology provides wireless connectivity so that experts could gain near-real-time visibility into machine conditions without traveling to locations.</p>
+				<br />
+
+				<h3>Tech specs</h3>
+				<ul>
+					<li>3-axis MEMS accelerometer;</li>
+					<li>±2g/4g/8g/16g selectable scales, 8 to 12 bit resolution;</li>
+					<li>10 Hz to 1.6 kHz output rate, DC to 800 Hz bandwidth;</li>
+					<li>2.4 GHz Bluetooth low energy;</li>
+					<li>1 year battery life with 5 minute data uploading rate;</li>
+				</ul>
+				<br />
+
+				<h3>Key features</h3>
+				<ul>
+					<li>Tri-axial MEMS accelerometer sensor with inside battery and IoT connectivity;</li>
+					<li>Small hardwares - portable, easy to mount, wireless, low power and low cost;</li>
+					<li>Rich cloud services like data fusion, display and analysis, etc;</li>
+					<li>Quickly assess machine conditions, recognize warning signs;</li>
+					<li>Multiple user terminals support, such as PC browsers and mobile APPs;</li>
+				</ul>
+				<br />
+
+
+				<h3>Benefits</h3>
+				<ul>
+					<li>Continuous and cyclic acquisition of overall vibration values;</li>
+					<li>24/7 remote monitoring, skip the costly old-fashioned manual inspections;</li>
+					<li>Enables the identification of machine faults and give early warnings;</li>
+					<li>Localizes the affected components to provide information on root causes;</li>
+					<li>Prevent equipment failures and avoid unscheduled downtime;</li>
+				</ul>
+				<br />
+
+
+				<h3>Architecture</h3>
+				<p>Integrated system includes monitoring targets, sensors, gateway, cloud services and user terminals:</p>
+
+				<div align="center">
+					<img class="nobottom" src="../img/applications/reducer/top_vibration_cement.png" alt="Architecture of vibration monitoring system" width="700" />
+					<p class="img_desc">System architecture</p>
+				</div>
+				<br />
+
+
+				<h3>Hardware installation</h3>
+				<p>Sensors are placed on the components where potential problems such as unbalance, misalignment, looseness or gear failures are easy to occur. For a three-step speed reducer, as an example, there are several key points for sensors to be mounted:</p>
+				<div align="center">
+					<img class="nobottom" src="../img/applications/reducer/mount.jpg" alt="mounting sensor on the machine" width="480" />
+					<p class="img_desc">Sensor mounting points</p>
+				</div>
+
+				<p>Here is a close look of the sensors. The sensor uses MEMS accelemeter to acquire vibration data, it has an inside battery and support wireless connectivity with gateway, so that no hard wire is required. The gateway in turn transmits data to the cloud for further process. Detailed information of sensor could be found here - <a href="../products/wiimine.html">WiiMine Sensor</a>.</p>
+				<div align="center">
+					<img class="nobottom" src="../img/applications/reducer/reducer_sensors.jpg" alt="mounting sensor on the machine" width="480" />
+					<p class="img_desc">WiiMine sensors</p>
+				</div>
+
+				<br />
+
+
+				<h3>Software</h3>
+				<p>The cloud supports rich software services inlucing data display, data analysis and message notification. The data analysis allow user to see trending of the overall values, perform wavelet transform, or calculate statistics of comparison for prediction and optimization of subsequent maintenance. Detailed information of cloud services could be found here - <a href="../products/wiimatrix.html">WiiMatrix</a>.</p>
+
+				<div align="center">
+					<img class="nobottom" src="../img/applications/reducer/pc.png" alt="Data display on PC browser" />
+					<p class="img_desc">Data display on PC browser</p>
+				</div>
+				<div align="center">
+					<img class="nobottom" src="../img/applications/reducer/data5.jpg" alt="Data analysis by algorithm" />
+					<p class="img_desc">Data analysis by algorithm</p>
+				</div>
+				<div align="center">
+					<img class="nobottom" src="../img/applications/reducer/wechat.png" alt="Notification of warn message on mobile APP (Wechat)" />
+					<p class="img_desc">Notification of warn message on mobile APP (Wechat)</p>
+				</div>
+
+				<br />
+
+				<h3>Summery</h3>
+				<p>Condition monitoring helps to avoid disruptions, to detect wear processes early on and to optimize the service life of the machine components. The IoT (Internet of Things) enables condition monitoring to be performed in a remote and wireless way, plants could automate maintenance processes to increase efficiencies and decrease costs.</p>
+
+			</div>
+
+			<div class="col-lg-3">
+				<aside class="right-sidebar">
+				<br />
+				<div class="widget">
+					<img src="../img/iot_logo.jpg" alt="" width="164"/>
+				</div>
+
+				 <div class="widget">
+				 	<h4 class="widgetheading">Tags</h4>
+				 	<ul class="tags">
+				 		<li><a href="../portfolio.html#factory">Industrial IoT</a></li>
+				 		<li><a href="../portfolio.html#machinery">Machinery</a></li>
+				 		<li><a href="../portfolio.html#maintenance">Maintenance</a></li>
+				 		<li><a href="../portfolio.html">All</a></li>
+				 	</ul>
+				 </div>
+
+				<br />
+				<div class="widget">
+					<h4 class="widgetheading">Downloads</h4>
+					<ul class="recent">
+						<li>
+							<img src="../img/pdf_icon.png" class="pull-left" alt=""  width="24"/>
+							<h6><a href="../resources/whitepaper_smart_va.pdf">White papaer: Smart vibration monitoring (zh)</a></h6>
+						</li>
+						<br />
+						<li>
+							<img src="../img/pdf_icon.png" class="pull-left" alt=""  width="24"/>
+							<h6><a href="../resources/casestudy_cement_vibration_monitoring_reducers.pdf">Case study: Vibration monitoring in cement plant</a></h6>
+						</li>
+						<br />
+						<li>
+							<img src="../img/pdf_icon.png" class="pull-left" alt=""  width="24"/>
+							<h6><a href="../resources/brochure_vibration_monitoring_for_reducer.pdf">Brochure: Monitoring speed reducers</a></h6>
+						</li>
+					</ul>
+				</div>
+
+				<div class="widget">
+					<h4 class="widgetheading">Related posts</h4>
+					<ul class="recent">
+						<li>
+							<img src="../img/products/sensor_wiinime_icon_big.png" class="pull-left" alt=""  width="36"/>
+							<h6><a href="../products/wiimine.html">WiiMine - The wireless vibration sensor</a></h6>
+						</li>
+						<br />
+
+						<li>
+							<img src="../img/applications/category/compress_big.jpg" class="pull-left" alt=""  width="36"/>
+							<h6><a href="vibration_monitoring_for_compressor.html">Vibration monitoring of air compressors</a></h6>
+						</li>
+					</ul>
+				</div>
+				</aside>
+			</div>
+
+		</div>
+
+	</div>
+	</section>
+
+	<footer>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div>
+		            	<p class="copyright text-muted ">Copyright &copy; 2016 - 2017 WiiHey Technology</p>
+		            	<p class="copyright text-muted ">沪ICP备16040630号</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<ul class="social-network">
+						<li><a href="../about.html#email"  title="E-mail"><i class="fa fa-envelope-o"></i></a></li>
+						<li><a href="../about.html#phone"  title="Tel"><i class="fa fa-phone"></i></a></li>
+						<li><a href="../about.html#address" title="Address"><i class="fa fa-map-o"></i></a></li>
+						<li><a href="../about.html#wechat" title="Wechat"><i class="fa fa-wechat"></i></a></li>
+						<li><a href="../about.html#weibo" 	title="Blog"><i class="fa fa-weibo"></i></a></li>
+						<li>
+							<div class="btn-group dropup">
+							  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							    <span class="lang-sm lang-lbl" lang="en"></span> <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu " role="menu">
+							    <li><a href="http://www.wiihey.com/zh-CN/index.html" ><span class="lang-sm lang-lbl" lang="zh"></span></a></li>
+							    <li><a href="http://www.wiihey.com/en/index.html" ><span class="lang-sm lang-lbl" lang="en"></span></a></li>
+							  </ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+
+</div>
+
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<script src="../js/jquery.min.js"></script>
+<!-- <script src="../js/modernizr.custom.js"></script> -->
+<script src="../js/jquery.easing.1.3.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.appear.js"></script>
+<!-- <script src="../js/stellar.js"></script> -->
+<!-- <script src="../js/classie.js"></script> -->
+<!--<script src="../js/uisearch.js"></script>-->
+<!-- <script src="../js/jquery.cubeportfolio.min.js"></script> -->
+<!-- <script src="../js/google-code-prettify/prettify.js"></script> -->
+<!-- <script src="../js/animate.js"></script> -->
+<!-- <script src="../js/custom.js"></script> -->
+
+</body>
+</html>

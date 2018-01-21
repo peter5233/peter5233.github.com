@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<!--
+Author: Jiayan Li
+web: www.wiihey.com
+-->
+
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../img/favicon.ico" rel="shortcut icon">
+<title>Parking occupancy detection | WiiHey</title>
+
+<meta name="keywords" content="Parking lot sensor, Parking occupancy detection, Smart Parking, Magnetic sensor, Magnetic perturbation">
+<meta name="description" content="Smart Parking's In-Ground Vehicle Detection via magnetic technology and IoT technology">
+
+<!-- css -->
+<link href="../css/bootstrap.min.css" rel="stylesheet" />
+<link href="../css/style.css" rel="stylesheet" />
+<link href="../css/tgtable.css" rel="stylesheet" type="text/css" />
+<link id="t-colors" href="../skins/default.css" rel="stylesheet" />
+<link id="bodybg" href="../bodybg/bg1.css" rel="stylesheet" type="text/css" />
+<link href="../css/languages.min.css" rel="stylesheet" />
+<link href="../css/dropdown-menu-fonts.css" rel="stylesheet" />
+
+</head>
+<body>
+
+
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="" width="199" height="52" /></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a class="root-menu" href="../index.html">Home</a></li>
+                        <li class="dropdown active">
+                        	<a href="portfolio.html" class="dropdown-toggle root-menu" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Solutions <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu">
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html#factory">Industrial IoT</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./vibration_monitoring_for_reducer.html">&nbsp;&nbsp;&raquo; Vibration monitoring</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./solar_pv_monitoring.html">&nbsp;&nbsp;&raquo; Solar PV monitoring</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html#city">Smart City</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./manhole_cover_monitoring.html">&nbsp;&nbsp;&raquo; Manhole cover monitoring</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./parking_occupancy_detection.html">&nbsp;&nbsp;&raquo; Parking occupancy detection</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html#retail">Smart Retail</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./people_counting_system.html">&nbsp;&nbsp;&raquo; People counting system</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./smart_shelf_management_system.html">&nbsp;&nbsp;&raquo; Smart shelf management</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html">View All</a></li>
+                            </ul>
+						</li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle root-menu" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Products <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-menu-layer-1" href="../products.html#acquisition">Data Acquisition</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiimine.html">&nbsp;&nbsp;&raquo; WiiMine</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiiung.html">&nbsp;&nbsp;&raquo; WiiUNG</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiilsw.html">&nbsp;&nbsp;&raquo; WiiLSW</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../products.html#transmission">Data Transmission</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiigate.html">&nbsp;&nbsp;&raquo; WiiGate</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/hohnet.html">&nbsp;&nbsp;&raquo; HOHNet&trade;</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../products.html#process">Process & Analysis</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiimatrix.html">&nbsp;&nbsp;&raquo; WiiMatrix</a></li>
+                                <li><a class="dropdown-menu-layer-1" href="../products.html">View All</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="root-menu" href="../about.html">Company</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="breadcrumb">
+					<li><a href="../index.html"><i class="fa fa-home"></i> Home</a><i class="icon-angle-right"></i></li>
+					<li><a href="../portfolio.html">IoT solutions</a><i class="icon-angle-right"></i></li>
+					<li class="active">Parking occupancy detection</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9">
+				<h1 class="small">Parking occupancy detection</h1>
+
+				<div class="solidline"><br /></div>
+
+				<h3>Introduction</h3>
+				<p>Parking space is becoming a serious problem due to the day-by-day increase in number of vehicles on the road. In cities with large population, or in places where sports or artistic events are scheduled, we have probably all experienced driving around in circles looking for a parking space. Sometimes, it is very frustrating to find one space.</p>
+
+				<p>In order to combat this problem, few cities have implemented a so-called "active parking lot management system", which has the benefits of guiding drivers to open parking spaces, saving time costs associated with parking, efficient parking management, better traffic flow, reduced pollution and energy waste, etc.</p>
+
+				<div align="center">
+					<img class="nobottom" src="../img/applications/parking/full_parking.jpg" alt="car full parking" width="480" />
+					<p class="img_desc">Full parking situation</p>
+				</div>
+
+				<br />
+
+
+				<h3>Parking occupancy detection</h3>
+				<p>The key to active parking lot management is the <b>reliable detection of available parking spaces. </b> It is achieved by wireless sensor in every parking space, which can detect the presence of a car in the space and note the arrival/exit time of a vehicle. Parking lot statuses (occupied or idle) are detected and transmitted to a clould database. This information then be accessed by users through website or mobile APPs to receive real-time updates.</p>
+
+				<p>WiiHey has developed a parking lot sensor that is scarcely bigger than a mug cup in terms of its circumference and measures around about three centimeters in height. The sensors are installed in parking garages or on-street parking spaces. The special thing about this product is that the sensors operate wirelessly and are powered by batteries, which eliminates the effort and expense of having to lay cables.</p>
+				<div align="center">
+					<img class="nobottom" src="../img/products/sensor_parking5.jpg" alt="car full parking" width="480" />
+					<p class="img_desc">WiiHey parking lot sensor</p>
+				</div>
+
+				<p>The working principle of the sensor is an inside magnet-resistive sensor that measures the Earth’s magnetic field. As vehicles come within range of the sensor, changes in the surrounding magnetic field occur and are detected. Each sensor continually monitors the background magnetic field to establish a base reference, allowing self-calibration & self-learning so that it is able to differentiate parking events from other electromagnetic interferences. </p>
+				<div align="center">
+					<img class="nobottom" src="../img/applications/parking/vehicle_magnetic_field.jpg" alt="car full parking" width="480" />
+					<p class="img_desc">Earth’s magnetic field changing caused by vehicles</p>
+				</div>
+				<br />
+
+
+				<h3>Tech specs</h3>
+				<ul>
+					<li>3-axis magnetic field detection sensor;</li>
+					<li>Wireless communications network in NB-IoT and UNB-IoT (868/915MHz);</li>
+					<li>Battery life for typical operations: over 5 years;</li>
+					<li>Fully sealed with IP68 level protection;</li>
+					<li>-32°C to 85°C operating temperature range;</li>
+				</ul>
+				<br />
+
+
+				<h3>Key features</h3>
+				<ul>
+					<li>Magnetic technology for reliable detection of the occupancy of a parking lot;</li>
+					<li>Wireless communication for ease of installation by eliminating civil works;</li>
+					<li>Powered by long-life battery with minimal energy consumption of the hardwares;</li>
+					<li>Easy integration with existing parking management front-end and back-end systems;</li>
+					<li>High-quality, fully encapsulated, dirt resistant;</li>
+				</ul>
+				<br />
+
+
+				<h3>Benefits</h3>
+				<ul>
+					<li>Live, real-time data on statuses of each and every parking lot;</li>
+					<li>Enable driving guidance to available parking spaces, improving the traffic flow;</li>
+					<li>Enable best use of available spaces by collecting comprehensive parking information;</li>
+					<li>Enable advanced parking services like car locating, overstay reminder, cash-less payment (3 party softwares);</li>
+					<li>Simplify parking for drivers, parking lot operators, traffic administrators, etc;</li>
+				</ul>
+				<br />
+
+
+				<h3>Architecture</h3>
+				<p>The parking lot sensor uses narrow band (NB) IoT communications technology, which combines high transmission ranges of up to several kilometres in urban environments, with low power consumption. Data are then transmitted to cloud services across the IoT network for further processing and delivery into the end-user’s system.</p>
+
+				<div align="center">
+					<img class="nobottom" src="../img/applications/parking/parking_topology.png" alt="Architecture of parking lot monitoring system" width="720" />
+					<p class="img_desc">System architecture</p>
+				</div>
+
+				<div align="center">
+					<img class="nobottom" src="../img/applications/parking/parking_topology_external.png" alt="Architecture of parking lot monitoring system" width="720" />
+					<p class="img_desc">System architecture <br />(Data transferring with third-part partners)</p>
+				</div>
+				<br />
+
+
+				<h3>Hardware installation</h3>
+				<p>Detailed information of parking lot sensor could be found here - <a href="../products/wiiung.html">WiiUNG Sensor</a>.</p>
+				<div align="center">
+					<img class="nobottom" src="../img/applications/parking/hardwares2.jpg" alt="mounting sensor on the parking lot" width="720" />
+					<p class="img_desc">Recess mounted parking lot sensors</p>
+				</div>
+				<br />
+
+				<h3>Software</h3>
+				<div align="center">
+					<img class="nobottom" src="../img/applications/parking/parkingdesign.jpg" alt="mounting sensor on the parking lot" width="720" />
+					<p class="img_desc">Remote parking space management system</p>
+				</div>
+				<div align="center">
+					<img class="nobottom" src="../img/applications/parking/wechatparking.jpg" alt="mounting sensor on the parking lot" width="360" />
+					<p class="img_desc">Guidance & navigation on mobile APP</p>
+				</div>
+				<br />
+
+				<h3>Summery</h3>
+				<p>WiiHey parking lot sensor is easy to install, low-maintenance in-ground vehicle detection sensors gather information on parking space occupancy statuses. The sensors feed data to cloud which can then be used for a range of third-party parking management systems. The data can be used to enable additional smart parking services such as integrated parking guidance, car locating or cash-less payment to further simplify the parking process.</p>
+
+			</div>
+
+			<div class="col-lg-3">
+				<aside class="right-sidebar">
+				<br />
+				<div class="widget">
+					<img src="../img/iot_logo.jpg" alt="" width="164"/>
+				</div>
+
+				 <div class="widget">
+				 	<h4 class="widgetheading">Tags</h4>
+				 	<ul class="tags">
+				 		<li><a href="../portfolio.html#city">Smart city</a></li>
+				 		<li><a href="../portfolio.html#parking">Smart parking</a></li>
+				 		<li><a href="../portfolio.html#asset">Assets</a></li>
+				 		<li><a href="../portfolio.html">All</a></li>
+				 	</ul>
+				 </div>
+
+				<br />
+				<div class="widget">
+					<h4 class="widgetheading">Downloads</h4>
+					<ul class="recent">
+						<li>
+							<img src="../img/pdf_icon.png" class="pull-left" alt=""  width="24"/>
+							<h6><a href="../resources/brochure_parking_occupancy_detection.pdf">Brochure: Parking occupancy detection</a></h6>
+						</li>
+					</ul>
+				</div>
+
+				<div class="widget">
+					<h4 class="widgetheading">Related posts</h4>
+					<ul class="recent">
+						<li>
+							<img src="../img/products/sensor_parking_icon_big.jpg" class="pull-left" alt=""  width="36"/>
+							<h6><a href="../products/wiiung.html">WiiUNG - The parking lot sensor</a></h6>
+						</li>
+						<br />
+
+					</ul>
+				</div>
+				</aside>
+			</div>
+
+		</div>
+
+	</div>
+	</section>
+
+	<footer>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div>
+		            	<p class="copyright text-muted ">Copyright &copy; 2016 - 2017 WiiHey Technology</p>
+		            	<p class="copyright text-muted ">沪ICP备16040630号</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<ul class="social-network">
+						<li><a href="../about.html#email"  title="E-mail"><i class="fa fa-envelope-o"></i></a></li>
+						<li><a href="../about.html#phone"  title="Tel"><i class="fa fa-phone"></i></a></li>
+						<li><a href="../about.html#address" title="Address"><i class="fa fa-map-o"></i></a></li>
+						<li><a href="../about.html#wechat" title="Wechat"><i class="fa fa-wechat"></i></a></li>
+						<li><a href="../about.html#weibo" 	title="Blog"><i class="fa fa-weibo"></i></a></li>
+						<li>
+							<div class="btn-group dropup">
+							  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							    <span class="lang-sm lang-lbl" lang="en"></span> <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu " role="menu">
+							    <li><a href="http://www.wiihey.com/zh-CN/index.html" ><span class="lang-sm lang-lbl" lang="zh"></span></a></li>
+							    <li><a href="http://www.wiihey.com/en/index.html" ><span class="lang-sm lang-lbl" lang="en"></span></a></li>
+							  </ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+
+</div>
+
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<script src="../js/jquery.min.js"></script>
+<!-- <script src="../js/modernizr.custom.js"></script> -->
+<script src="../js/jquery.easing.1.3.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.appear.js"></script>
+<!-- <script src="../js/stellar.js"></script> -->
+<!-- <script src="../js/classie.js"></script> -->
+<!--<script src="../js/uisearch.js"></script>-->
+<!-- <script src="../js/jquery.cubeportfolio.min.js"></script> -->
+<!-- <script src="../js/google-code-prettify/prettify.js"></script> -->
+<!-- <script src="../js/animate.js"></script> -->
+<!-- <script src="../js/custom.js"></script> -->
+
+</body>
+</html>

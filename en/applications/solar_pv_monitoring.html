@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!--
+Author: Jiayan Li
+web: www.wiihey.com
+-->
+
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../img/favicon.ico" rel="shortcut icon">
+<title>Solar PV Monitoring | WiiHey</title>
+
+<meta name="keywords" content="Solar PV Monitoring, Photovoltaic Systems, String level, module level, Maximum Power Point Tracking (MPPT)">
+<meta name="description" content="IoT wireless remote monitoring and control for solar PV system.">
+
+<!-- css -->
+<link href="../css/bootstrap.min.css" rel="stylesheet" />
+<link href="../css/style.css" rel="stylesheet" />
+<link href="../css/tgtable.css" rel="stylesheet" type="text/css" />
+<link id="t-colors" href="../skins/default.css" rel="stylesheet" />
+<link id="bodybg" href="../bodybg/bg1.css" rel="stylesheet" type="text/css" />
+<link href="../css/languages.min.css" rel="stylesheet" />
+<link href="../css/dropdown-menu-fonts.css" rel="stylesheet" />
+
+</head>
+<body>
+
+
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="" width="199" height="52" /></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a class="root-menu" href="../index.html">Home</a></li>
+                        <li class="dropdown active">
+                        	<a href="portfolio.html" class="dropdown-toggle root-menu" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Solutions <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu">
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html#factory">Industrial IoT</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./vibration_monitoring_for_reducer.html">&nbsp;&nbsp;&raquo; Vibration monitoring</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./solar_pv_monitoring.html">&nbsp;&nbsp;&raquo; Solar PV monitoring</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html#city">Smart City</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./manhole_cover_monitoring.html">&nbsp;&nbsp;&raquo; Manhole cover monitoring</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./parking_occupancy_detection.html">&nbsp;&nbsp;&raquo; Parking occupancy detection</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html#retail">Smart Retail</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./people_counting_system.html">&nbsp;&nbsp;&raquo; People counting system</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="./smart_shelf_management_system.html">&nbsp;&nbsp;&raquo; Smart shelf management</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../portfolio.html">View All</a></li>
+                            </ul>
+						</li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle root-menu" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Products <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-menu-layer-1" href="../products.html#acquisition">Data Acquisition</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiimine.html">&nbsp;&nbsp;&raquo; WiiMine</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiiung.html">&nbsp;&nbsp;&raquo; WiiUNG</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiilsw.html">&nbsp;&nbsp;&raquo; WiiLSW</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../products.html#transmission">Data Transmission</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiigate.html">&nbsp;&nbsp;&raquo; WiiGate</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/hohnet.html">&nbsp;&nbsp;&raquo; HOHNet&trade;</a></li>
+
+                                <li><a class="dropdown-menu-layer-1" href="../products.html#process">Process & Analysis</a></li>
+                                <li><a class="dropdown-menu-layer-2" href="../products/wiimatrix.html">&nbsp;&nbsp;&raquo; WiiMatrix</a></li>
+                                <li><a class="dropdown-menu-layer-1" href="../products.html">View All</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="root-menu" href="../about.html">Company</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="breadcrumb">
+					<li><a href="../index.html"><i class="fa fa-home"></i> Home</a><i class="icon-angle-right"></i></li>
+					<li><a href="../portfolio.html">IoT solutions</a><i class="icon-angle-right"></i></li>
+					<li class="active">Solar PV monitoring</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9">
+				<h1 class="small">Solar PV monitoring</h1>
+
+				<div class="solidline"><br /></div>
+
+				<h3>Introduction</h3>
+				<p>Photovoltaic (PV) systems have been used for many decades. With the focus on greener sources of power, PV serves an important source of power for a wide range of applications. Today, improvements in converting light energy into electrical energy as well as the cost reductions have become an urgent issue.</p>
+
+				<p>The energy production of PV systems changes significantly during the year, making it difficult to estimate their performance. Many factors have impacts on the energy production: weather conditions, module degradation, or simply due to some tree limbs starting to grow over the PV panels.</p>
+				<div align="center">
+					<img class="nobottom" src="../img/applications/solar_monitoring/solar_pv_system.jpg" alt="solar PV system" width="560" />
+					<p class="img_desc">Solar PV system</p>
+				</div>
+
+				<p>For small systems, manual observation may be sufficient. But for a larger, commercial set up, reporting may be automated through means of modern IoT technology. Automated reporting has the advantages of direct digitally recording into a database and notifications of fault alerts. Customers could check real-time status and see what the fault cause might be to immediately take actions and maximize the PV system power.</p>
+				<br />
+
+
+				<h3>Solar PV monitoring</h3>
+				<p>As the output of PV system is changeable according to solar radiation intensity and other conditions, monitoring and control is essential for reliable functioning and maximum yield of any solar PV system. </p>
+
+				<p>Since a solar PV array consists of a number of individual PV modules connected together to give the required power with a suitable current and voltage output. Module-level monitoring allows customers to monitor the production of each individual PV module.</p>
+
+				<p>For module-level monitoring, the constant voltage measuring is the simplest method. The method uses single voltage to represent the VMP (Maximum power output voltage). The actual performance will be determined by the average level of irradiance and temperature changes. Sampling the voltage value helps evaluate these conditions.</p>
+				<br />
+
+
+				<h3>Individual module monitoring (IMM) </h3>
+
+				<p>WiiHey's IMM sensor is a new and innovative device which functions to quickly and efficiently locate a wide range of defects in solar panels. Extensive field tests have shown that operators are able to save up to 40% of their fault-finding time.</p>
+
+				<p>The IMM sensor integrated in the junction box of a PV module, continously measures voltage and temperature at each module level. Big amounts of IMM sensors could form a wireless MESH network via <a href="../products/hohnet.html">HOHNet&trade;</a> - WiiHey's proprietary IoT protocol, through which report status to the cloud database. </p>
+
+				<p>With a cloud-based dashboard, the monitoring system is able to detect each module faults, analyse and identify them, provides detailed instructions to operators in what, where and how to be repaired or swapped, and helps to improve maintenance services.</p>
+
+				<div align="center">
+					<img class="nobottom" src="../img/applications/solar_monitoring/IMM_sensor.jpg" alt="IMM sensor inside junction box for MPPT (Maximum power point tracking)" width="640" />
+					<p class="img_desc">IMM sensor inside junction box</p>
+				</div>
+				<br />
+
+				<h3>Tech specs</h3>
+				<ul>
+					<li>Voltage measurement from 0V to 80V, with accuarcy of ±0.2V;</li>
+					<li>Temperature measurement from 0°C to 100°C;</li>
+					<li>Availbe luminance measurement from 380NM to 780NM;</li>
+					<li>Compact footprint 29mm x 39mm x 7mm, ideal for embedding in a junction box;</li>
+					<li>Built-in 600W surge protection;</li>
+					<li>2.4GHz ISM wireless connectivity for IMM sensors and IoT gateway;</li>
+					<li>Mesh network capacity: connect thousands of IMM sensors typical;</li>
+					<li>Remote access and cellular communications for IoT gateway;</li>
+					<li>Cloud-based web browser interface;</li>
+				</ul>
+				<br />
+
+				<h3>Key features</h3>
+				<ul>
+					<li>Wireless IMM sensor installed within each PV module junction box;</li>
+					<li>Wireless Gateway installed within the inverter enclosure for outdoor resilience;</li>
+					<li>Self-forming, self-healing mesh network for easy configuration and robust communication;</li>
+					<li>Enable logical and physical PV site visualization for each individual module and for the whole system;</li>
+					<li>Enable module-level, real-time status and immediate fault alerts pinpointed on a virtual map;</li>
+					<li>Enable historical and aggregated data, comparative analysis diagnostics and a guided root-cause fault analysis;</li>
+					<li>Remote service capabilities, data is logged on the cloud and can be securely reviewed from web browser;</li>
+				</ul>
+				<br />
+
+
+				<h3>Benefits</h3>
+				<ul>
+					<li>Detect problems before they have a chance to become major issues;</li>
+					<li>Reduce PV maintenance and troubleshooting costs dramatically;</li>
+					<li>Simplify the service operation and management at the PV factory site;</li>
+					<li>Help to optimize and maximize the solar PV system power at module level;</li>
+				</ul>
+				<br />
+
+
+				<h3>Architecture</h3>
+				<p>The HOHNet&trade; mesh network enables wireless communication between the IMM sensors and IoT gateways. The support of wireless connectivity saves the time and cost associated with traditionally wire cable communication.</p>
+
+				<p>The user terminal is a web-based APP enabling solar PV system operators and customers to track energy generation. It displays performance data in an attractive and easy to understand way which can be viewed on any web-enabled device.</p>
+
+				<div align="center">
+					<img class="nobottom" src="../img/applications/solar_monitoring/solar_monitoring.png" alt="Solar PV monitoring system topology architecture" width="800" />
+					<p class="img_desc">Solar PV monitoring system architecture</p>
+				</div>
+				<br />
+
+				<h3>Hardware - with minimum configuration</h3>
+				<p>For module-level monitoring, it's important to map the relationship between a PV module and an IMM sensor. However, there are thousands of modules in solar panel arrays at a normal PV plant, it would be impractical to configure all these relationship by manual effects.</p>
+
+				<p>Since the solar panels always fit in a rectangle array, we take this geometry information into consideration and proposed a neighbor discovery process in the mesh protocol so that one IMM sensor node is able to self discover its one-hop neighbours. </p>
+
+				<p>For example, in the following topology, we only need to configure the red sensor nodes as the anchor node (usually at array's vertex points), that means the ID and their location information would be manually set to the system. For other sensor nodes (ie. the blue nodes), their ID and location information would be set by the mesh protocol automatically.</p>
+				<div align="center">
+					<img class="nobottom" src="../img/applications/solar_monitoring/configure.jpg" alt="IMM sensor nodes configuration" width="800" />
+					<p class="img_desc">IMM sensor nodes configuration</p>
+				</div>
+
+				<p>In terms of data transmission, no hardware or wiring is required. By adopting wireless mesh network, data is transferred wirelessly by a bucket relay method to allow long distance communication from IMM sensors to gateways. </p>
+
+				<br />
+
+				<h3>Software</h3>
+				<p>The cloud based monitoring platform provides enhanced PV performance monitoring and power assurance through immediate fault detection and alerts at module level.</p>
+
+				<p>When the data is accessed on-line, a map clearly displays the location and behaviour of each module in the solar array. If, for instance, there is a fault on a particular solar panel affecting energy performance, it can be identified.</p>
+
+
+				<div align="center">
+					<img class="nobottom" src="../img/applications/solar_monitoring/ui.jpg" alt="The solar PV monitoring platform" width="640" />
+					<p class="img_desc">The solar PV monitoring platform</p>
+				</div>
+				<br />
+
+				<h3>Summery</h3>
+				<p>Solar PV monitoring system and its features enable maintenance staff, and system operators to improve the PV site performance, assure the yield of the system, maximize solar power harvesting and reduce maintenance costs by continuously monitoring and resolving faults more effectively.</p>
+
+			</div>
+
+			<div class="col-lg-3">
+				<aside class="right-sidebar">
+				<br />
+				<div class="widget">
+					<img src="../img/iot_logo.jpg" alt="" width="164"/>
+				</div>
+
+				 <div class="widget">
+				 	<h4 class="widgetheading">Tags</h4>
+				 	<ul class="tags">
+				 		<li><a href="../portfolio.html#solar">Solar</a></li>
+				 		<li><a href="../portfolio.html#factory">Industrial IoT</a></li>
+				 		<li><a href="../portfolio.html#asset">Assets</a></li>
+				 		<li><a href="../portfolio.html#maintenance">Maintenance</a></li>
+				 		<li><a href="../portfolio.html">All</a></li>
+				 	</ul>
+				 </div>
+
+				<br />
+				<div class="widget">
+					<h4 class="widgetheading">Downloads</h4>
+					<ul class="recent">
+						<!-- <br /> -->
+						<li>
+							<img src="../img/pdf_icon.png" class="pull-left" alt=""  width="24"/>
+							<h6><a href="../resources/brochure_solar_pv_monitoring.pdf">Brochure: Solar PV monitoring system</a></h6>
+						</li>
+					</ul>
+				</div>
+
+				<div class="widget">
+					<h4 class="widgetheading">Related posts</h4>
+					<ul class="recent">
+						<li>
+							<img src="../img/products/wlan.jpg" class="pull-left" alt=""  width="36"/>
+							<h6><a href="../products/hohnet.html">HOHNet&trade; Wireless Sensor Network</a></h6>
+						</li>
+						<br />
+					</ul>
+				</div>
+				</aside>
+			</div>
+
+		</div>
+
+	</div>
+	</section>
+
+	<footer>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div>
+		            	<p class="copyright text-muted ">Copyright &copy; 2016 - 2017 WiiHey Technology</p>
+		            	<p class="copyright text-muted ">沪ICP备16040630号</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<ul class="social-network">
+						<li><a href="../about.html#email"  title="E-mail"><i class="fa fa-envelope-o"></i></a></li>
+						<li><a href="../about.html#phone"  title="Tel"><i class="fa fa-phone"></i></a></li>
+						<li><a href="../about.html#address" title="Address"><i class="fa fa-map-o"></i></a></li>
+						<li><a href="../about.html#wechat" title="Wechat"><i class="fa fa-wechat"></i></a></li>
+						<li><a href="../about.html#weibo" 	title="Blog"><i class="fa fa-weibo"></i></a></li>
+						<li>
+							<div class="btn-group dropup">
+							  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							    <span class="lang-sm lang-lbl" lang="en"></span> <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu " role="menu">
+							    <li><a href="http://www.wiihey.com/zh-CN/index.html" ><span class="lang-sm lang-lbl" lang="zh"></span></a></li>
+							    <li><a href="http://www.wiihey.com/en/index.html" ><span class="lang-sm lang-lbl" lang="en"></span></a></li>
+							  </ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+
+</div>
+
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<script src="../js/jquery.min.js"></script>
+<!-- <script src="../js/modernizr.custom.js"></script> -->
+<script src="../js/jquery.easing.1.3.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.appear.js"></script>
+<!-- <script src="../js/stellar.js"></script> -->
+<!-- <script src="../js/classie.js"></script> -->
+<!--<script src="../js/uisearch.js"></script>-->
+<!-- <script src="../js/jquery.cubeportfolio.min.js"></script> -->
+<!-- <script src="../js/google-code-prettify/prettify.js"></script> -->
+<!-- <script src="../js/animate.js"></script> -->
+<!-- <script src="../js/custom.js"></script> -->
+
+</body>
+</html>
