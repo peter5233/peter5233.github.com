@@ -25,6 +25,7 @@ web: www.wiihey.com
 </head>
 <body>
 
+
 <div id="wrapper">
 	<!-- start header -->
 	<header>
@@ -428,7 +429,6 @@ web: www.wiihey.com
 <!-- <script src="js/animate.js"></script> -->
 <!-- <script src="js/custom.js"></script> -->
 
-
 <script type="text/javascript">
 $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
@@ -438,6 +438,17 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     }, 500);
 });
 </script>
+
+<script>
+window.onload = function()
+{
+	// detect IE8 and above, and edge
+	if (document.documentMode ) {
+	    alert('Your Internet Explorer doesn\'t support all features in this site. For a more enjoyable experience, try a different browser like Firefox, Safari, Chrome!');
+	}
+}
+</script>
+
 
 </body>
 </html>
