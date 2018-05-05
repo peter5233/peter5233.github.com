@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>http://www.wiihey.com/en/</loc>
+    <xhtml:link
+                 rel="alternate"
+                 hreflang="zh"
+                 href="http://www.wiihey.com/zh-CN/"
+                 />
+    <xhtml:link
+                 rel="alternate"
+                 hreflang="en"
+                 href="http://www.wiihey.com/en/"
+                 />
+  </url>
+
+  <url>
+    <loc>http://www.wiihey.com/zh-CN/</loc>
+    <xhtml:link
+                 rel="alternate"
+                 hreflang="en"
+                 href="http://www.wiihey.com/en/"
+                 />
+    <xhtml:link
+                 rel="alternate"
+                 hreflang="zh"
+                 href="http://www.wiihey.com/zh-CN/"
+                 />
+  </url>
+
   <url>
     <loc>http://www.wiihey.com/en/index.html</loc>
   </url>
