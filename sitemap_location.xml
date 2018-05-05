@@ -13,51 +13,108 @@
     <loc>http://wiihey.com/en/about.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/applications/vibration_monitoring_for_reducer.html</loc>
+    <loc>http://wiihey.com/en/applications/cold-logistics.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/applications/solar_pv_monitoring.html</loc>
+    <loc>http://wiihey.com/en/applications/manhole-cover-monitoring.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/applications/manhole_cover_monitoring.html</loc>
+    <loc>http://wiihey.com/en/applications/monitoring-outdoor-assets.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/applications/parking_occupancy_detection.html</loc>
+    <loc>http://wiihey.com/en/applications/parking-occupancy-detection.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/applications/people_counting_system.html</loc>
+    <loc>http://wiihey.com/en/applications/people-counting-system.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/applications/smart_shelf_management_system.html</loc>
+    <loc>http://wiihey.com/en/applications/personal-positioning-system.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/applications/personal_positioning_system.html</loc>
+    <loc>http://wiihey.com/en/applications/smart-shelf-management-system.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/applications/people_counting_system.html</loc>
+    <loc>http://wiihey.com/en/applications/solar-pv-module-level-monitoring.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/applications/smart_shelf_management_system.html</loc>
+    <loc>http://wiihey.com/en/applications/vibration-monitoring-for-compressor.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/applications/monitoring_outdoor_assets.html</loc>
+    <loc>http://wiihey.com/en/applications/vibration-monitoring-for-reducer.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/products/wiimine.html</loc>
+    <loc>http://wiihey.com/en/products/digital-signage.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/products/wiiung.html</loc>
+    <loc>http://wiihey.com/en/products/hohnet-wireless-sensor-network.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/products/wiilsw.html</loc>
+    <loc>http://wiihey.com/en/products/solar-kit.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/products/wiigate.html</loc>
+    <loc>http://wiihey.com/en/products/wiigate-iot-gateway.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/products/hohnet.html</loc>
+    <loc>http://wiihey.com/en/products/wiilsw-manhole-cover-sensor.html</loc>
   </url>
   <url>
-    <loc>http://wiihey.com/en/products/wiimatrix.html</loc>
+    <loc>http://wiihey.com/en/products/wiimatrix-iot-data-platform.html</loc>
   </url>
+  <url>
+    <loc>http://wiihey.com/en/products/wiimine-vibration-sensor.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/wiisa64-iot-edge-computing.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/wiiung-parking-lot-sensor.html</loc>
+  </url>
+
+  <url>
+    <loc>http://wiihey.com/zh-CN/index.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/portfolio.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/about.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/applications/machine-pump-monitoring.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/applications/machine-leasing-monitoring.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/applications/smart-manhole-cover-monitoring.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/applications/smart-parking-lot-monitoring.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/applications/cold-logistics-data-logger.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/applications/asset-management-via-iot.html</loc>
+  </url>
+
+  <url>
+    <loc>http://wiihey.com/zh-CN/products/accessories.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/products/wiicarrier-edge-computing.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/products/wiigate-iot-gateway.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/products/wiimatrix-iot-data-platform.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/products/wiimesh-wireless-sensor-network.html</loc>
+  </url>
+  <url>
+    <loc>http://wiihey.com/zh-CN/products/wiimine-vibration-sensor.html</loc>
+  </url>
+
 </urlset>
