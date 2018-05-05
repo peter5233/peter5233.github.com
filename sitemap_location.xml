@@ -17,12 +17,24 @@
   </url>
   <url>
     <loc>http://wiihey.com/en/applications/manhole-cover-monitoring.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/applications/manhole/smart-manhole-cover-sensor.png</image:loc>
+       <image:caption>Intelligent manhole cover and manhole sensor</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/applications/manhole/smart-manhole-cover-installation.jpg</image:loc>
+       <image:caption>Manhole cover remote monitoring and security alerts</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>http://wiihey.com/en/applications/monitoring-outdoor-assets.html</loc>
   </url>
   <url>
     <loc>http://wiihey.com/en/applications/parking-occupancy-detection.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/smart-parking-lot-sensor.jpg</image:loc>
+       <image:caption>Parking lot sensor and Parking occupancy detection</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>http://wiihey.com/en/applications/people-counting-system.html</loc>
@@ -35,12 +47,24 @@
   </url>
   <url>
     <loc>http://wiihey.com/en/applications/solar-pv-module-level-monitoring.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/applications/solar_monitoring/solar-pv-module-level-sensor.jpg</image:loc>
+       <image:caption>Solar PV Module-level Monitoring and Rapid Shutdown</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/applications/solar_monitoring/solar-pv-smart-junction-box-rapid-shutdown.jpg</image:loc>
+       <image:caption>Smart solar PV module junction box - wireless monitoring and shutdown</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>http://wiihey.com/en/applications/vibration-monitoring-for-compressor.html</loc>
   </url>
   <url>
     <loc>http://wiihey.com/en/applications/vibration-monitoring-for-reducer.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/applications/reducer/wireless-vibration-sensor-on-machine.jpg</image:loc>
+       <image:caption>Wireless vibration sensor mounted on gearbox machine</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>http://wiihey.com/en/products/digital-signage.html</loc>
@@ -62,6 +86,10 @@
   </url>
   <url>
     <loc>http://wiihey.com/en/products/wiimine-vibration-sensor.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/sensor_wiinime2.png</image:loc>
+       <image:caption>The Wireless Bluetooth Vibration Sensor and MEMS Accelerometer</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>http://wiihey.com/en/products/wiisa64-iot-edge-computing.html</loc>
@@ -87,6 +115,10 @@
   </url>
   <url>
     <loc>http://wiihey.com/zh-CN/applications/smart-manhole-cover-monitoring.html</loc>
+    <image:image>
+       <image:loc>http://www.wiihey.com/zh-CN/img/applications/manhole/smart-manhole-cover-sensor.png</image:loc>
+       <image:caption>智能井盖传感器，井盖无线、远程、防盗监测和预警</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>http://wiihey.com/zh-CN/applications/smart-parking-lot-monitoring.html</loc>
@@ -116,42 +148,5 @@
   <url>
     <loc>http://wiihey.com/zh-CN/products/wiimine-vibration-sensor.html</loc>
   </url>
-
-  <image:image>
-     <image:loc>http://wiihey.com/en/img/applications/solar_monitoring/solar-pv-module-level-sensor.jpg</image:loc>
-     <image:caption>Solar PV Module-level Monitoring and Rapid Shutdown</image:caption>
-  </image:image>
-  <image:image>
-     <image:loc>http://wiihey.com/en/img/applications/solar_monitoring/solar-pv-smart-junction-box-rapid-shutdown.jpg</image:loc>
-     <image:caption>Smart solar PV module junction box - wireless monitoring and shutdown</image:caption>
-  </image:image>
-
-  <image:image>
-     <image:loc>http://wiihey.com/en/img/applications/reducer/wireless-vibration-sensor-on-machine.jpg</image:loc>
-     <image:caption>Wireless vibration sensor mounted on gearbox machine</image:caption>
-  </image:image>
-  <image:image>
-     <image:loc>http://wiihey.com/en/img/products/sensor_wiinime2.png</image:loc>
-     <image:caption>The Wireless Bluetooth Vibration Sensor and MEMS Accelerometer</image:caption>
-  </image:image>
-
-  <image:image>
-     <image:loc>http://wiihey.com/en/img/applications/manhole/smart-manhole-cover-sensor.png</image:loc>
-     <image:caption>Intelligent manhole cover and manhole sensor</image:caption>
-  </image:image>
-  <image:image>
-     <image:loc>http://wiihey.com/en/img/applications/manhole/smart-manhole-cover-installation.jpg</image:loc>
-     <image:caption>Manhole cover remote monitoring and security alerts</image:caption>
-  </image:image>
-
-  <image:image>
-     <image:loc>http://wiihey.com/en/img/products/smart-parking-lot-sensor.jpg</image:loc>
-     <image:caption>Parking lot sensor and Parking occupancy detection</image:caption>
-  </image:image>
-
-  <image:image>
-     <image:loc>http://www.wiihey.com/zh-CN/img/applications/manhole/smart-manhole-cover-sensor.png</image:loc>
-     <image:caption>智能井盖传感器，井盖无线、远程、防盗监测和预警</image:caption>
-  </image:image>
 
 </urlset>
