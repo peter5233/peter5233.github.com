@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <link href="../img/favicon.ico" rel="shortcut icon">
 
-<title>隧道工地人员定位与考勤|工业应用|无人巡检</title>
+<title>隧道工地人员定位与考勤管理|威惠智能</title>
 <meta name="keywords" content="智慧停车,地磁传感器,智慧城市,上海威惠智能科技有限公司">
 <meta name="description" content="上海威惠智能科技有限公司,开发物联网无人巡检系统,将无人巡检系统应用于设备管理,振动监测,智慧井盖,智慧停车,智慧光伏">
 
@@ -80,7 +80,7 @@
 				<ul class="breadcrumb">
 					<li><a href="../index.html"><i class="fa fa-home"></i> 首页</a><i class="icon-angle-right"></i></li>
 					<li><a href="../portfolio.html">行业应用</a><i class="icon-angle-right"></i></li>
-					<li class="active">隧道工地人员定位与考勤</li>
+					<li class="active">隧道工地人员定位与考勤管理</li>
 				</ul>
 			</div>
 		</div>
@@ -91,12 +91,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8">
-				<h1 class="ssmall">隧道工地人员定位与考勤</h1>
-
-<!-- 				<br />
-				<img src="../img/applications/machine21.jpg" alt=""  class="img-responsive" /> -->
-
-
+				<h1 class="ssmall">隧道工地人员定位与考勤管理</h1>
 				<br />
 
 				<ul class="nav nav-tabs">
@@ -108,14 +103,84 @@
 				<div class="tab-content">
 
 					<div class="tab-pane active" id="one">
-						<!-- <h4>概述</h4> -->
-						<p>（开发中）</p>
+						<h4>概述</h4>
+						<p>隧道建筑工地，是一个安全事故多发的场所。由于工地人员灵活性大、移动性高，难以实时监督，使隧道建筑施工企业面临巨大的管理困难，一直是其管理工作中的盲点区域。</p>
+						<div align="center">
+							<img src="../img/applications/personal-positioning/tunnel.jpg" alt="地下隧道工地人员定位考勤管理"  />
+						</div>
 
+						<p>过人员定位系统，可以实时远程地对工地人员进行定位，实现高效考勤管理，也能为事故处理及救援提供可靠依据，进一步提升安全生产的水平。</p>
+
+						<br />
+						<h4>问题与挑战</h4>
+						<p>在隧道之中，很多传统的人员定位技术会受到限制。比如，人们熟知的GPS全球定位系统，无法在隧道内接收到卫星信号。又因为隧道内部没有移动网络，或者由于隧道蔓延很长无法部署网际网络，所以，对于像Wi-Fi定位、iBeacon定位、UWB定位等可用于室内的技术，也要寻求如何将定位结果有效地传输至隧道外界的方法。</p>
+
+						<br />
+						<h4>技术方案</h4>
+						<p>我们采用先进的HOHWave™无线自组网技术，使得不同定位基站之间可以相互组网，再通过iBeacon定位技术及RSSI信号强度指纹算法，发现定位基站所属区域内人员。后续，定位基站通过HOHWave™自组网将定位信息层层传递至隧道外界，实现隧道中人员的实时、远程定位，并以此建立高效、智能的人员定位与考勤系统。</p>
+
+						<p>定位系统由微标签、定位基站、网关、云端（数字地图）等组件构成。</p>
+						<div align="center">
+							<img src="../img/applications/personal-positioning/topology.jpg" alt="人员定位系统拓扑结构"  />
+						</div>
+
+
+						<br />
+						<h4>微标签</h4>
+						<p>微标签由人随身携带，它支持低功耗蓝牙、iBeacon、2.4GHz等无线射频通讯，体积小巧，可以集成至手环腕表、头盔或胸卡等。微标签会广播携带者的身份ID信息。</p>
+						<div align="center">
+							<img src="../img/applications/personal-positioning/tag.jpg" alt="定位标签，人员随身携带，发射ibeacon、低功耗蓝牙"  />
+						</div>
+
+						<br />
+						<h4>定位基站</h4>
+						<p>定位基站支持与微标签之间的低功耗蓝牙、iBeacon、2.4GHz等无线射频通讯，同时，它支持HOHWave™无线自组网协议，不同定位基站之间可以联网传递信息。在隧道内，可以使用顶部的照明电源作为供电。</p>
+						<div align="center">
+							<img src="../img/applications/personal-positioning/basestation.jpg" alt="定位基站，在隧道内部署"  />
+						</div>
+
+						<p>不同定位基站划分隧道里的区域。每个定位基站会监听来自微标签的身份ID信息。</p>
+						<div align="center">
+							<img src="../img/applications/personal-positioning/signal.jpg" alt="定位标签发射iBeacon，低功耗蓝牙信号，定位基站接收信号"  />
+						</div>
+
+						<br />
+						<h4>网关</h4>
+						<p>网关是HOHWave™网络中Data Sink的角色（数据接收器），它部署于隧道外界，通过移动网络，将定位信息发送至云端。</p>
+						<div align="center">
+							<img src="../img/applications/personal-positioning/gateway.jpg" alt="网关与云端互联"  />
+						</div>
+
+
+						<br />
+						<h4>业务数据流程</h4>
+						<ul>
+							<li>微标签发送人员ID消息。</li>
+							<li>定位基站接收到微标签消息，获知人员所在区域。</li>
+							<li>定位基站通过HOHWave™将人员位置信息发送至网关。 </li>
+							<li>网关将数据发至云端。</li>
+						</ul>
+						<div align="center">
+							<img src="../img/applications/personal-positioning/flow.jpg" alt="定位消息传递流程"  />
+						</div>
+
+						<br />
+						<h4>云端算法与数字地图</h4>
+						<p>云端服务器通过RSSI信号强度指纹算法，针对多个基站同时收到微标签消息的情况进行匹配优化，提高定位准确度。然后从人员数据库与基站数据库中，识别人员身份与坐标信息，最终生成数字地图，在中控大屏幕上显示。</p>
+						<div align="center">
+							<img src="../img/applications/personal-positioning/map.jpg" alt="信号强度指纹算法与数字地图"  />
+						</div>
+
+						<h4>结论</h4>
+						<p>我们采用先进的HOHWave™无线自组网+低功耗蓝牙/iBeacon定位技术，通过为人员携带定位微标签，在隧道内部署自组网的定位基站，能够实现对人员的实时、远程定位，并以此建立高效、智能的人员定位与考勤系统。</p>
 					</div>
 
 					<div class="tab-pane" id="two">
-						<!-- <br /> -->
-						<p>（略）</p>
+						<br />
+						<p>相比于传统人员定位方案，本方案具有成本低、功耗低、可扩展等优势，在定位精度方面，能够达到人员考勤的要求。</p>
+						<div align="center">
+							<img src="../img/applications/personal-positioning/spec.jpg" alt="iBeacon低功耗蓝牙近场通信的室内定位精度等主要技术规格"  />
+						</div>
 
 					</div>
 
@@ -138,11 +203,6 @@
 				 	<h4 class="widgetheading">分类</h4>
 				 	<ul class="tags">
 				 		<li><a href="../portfolio.html#factory">数字工厂</a></li>
-				 		<li><a href="../portfolio.html#city">智慧城市</a></li>
-				 		<li><a href="../portfolio.html#asset">资产管理</a></li>
-				 		<li><a href="../portfolio.html#loan">融资租赁</a></li>
-				 		<li><a href="../portfolio.html#food">农业</a></li>
-				 		<li><a href="../portfolio.html#logistic">物流</a></li>
 				 		<li><a href="../portfolio.html#human">人员管理</a></li>
 				 		<li><a href="../portfolio.html">所有案例</a></li>
 				 	</ul>
