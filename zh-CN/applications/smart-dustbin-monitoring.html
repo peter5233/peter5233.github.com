@@ -5,8 +5,8 @@
 <link href="../img/favicon.ico" rel="shortcut icon">
 
 <title>城市垃圾箱满溢监测|智慧城市</title>
-<meta name="keywords" content="智慧停车,地磁传感器,智慧城市,上海威惠智能科技有限公司">
-<meta name="description" content="上海威惠智能科技有限公司,开发物联网无人巡检系统,将无人巡检系统应用于设备管理,振动监测,智慧井盖,智慧停车,智慧光伏">
+<meta name="keywords" content="智慧城市智能垃圾箱、智能果皮箱满溢程度监测，NB-IoT联网">
+<meta name="description" content="集成了红外传感器的满溢程度监测功能的智能垃圾箱果皮箱，使用NB-IoT通信，助力智慧城市。">
 
 <!-- css -->
 <link href="../css/bootstrap.min.css" rel="stylesheet" />
@@ -90,12 +90,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8">
-				<h1 class="ssmall">城市垃圾箱满溢监测</h1>
-
-<!-- 				<br />
-				<img src="../img/applications/machine21.jpg" alt=""  class="img-responsive" /> -->
-
-
+				<h1 class="ssmall">城市垃圾箱、果皮箱满溢程度监测</h1>
 				<br />
 
 				<ul class="nav nav-tabs">
@@ -107,8 +102,53 @@
 				<div class="tab-content">
 
 					<div class="tab-pane active" id="one">
-						<!-- <h4>概述</h4> -->
-						<p>（开发中）</p>
+						<h4>概述</h4>
+						<p>《深圳市公共区域环境卫生质量和管理要求》规定：特级保洁道路、一级保洁道路废物箱按间隔25米-50米设置，二、三级保洁级道路按间隔50米-100米设置，四级保洁道路根据实际情况设置。果皮箱安装摆放的距离的大小按照市政道路等级标准，并结合考虑每条路段(区域)人流量的大小实际情况进行综合确定。</p>
+						<div align="center">
+							<img src="../img/applications/recycle-bin/recycle-bin.jpg" alt="智能垃圾箱、果皮箱"  />
+						</div>
+
+						<p>福田区果皮箱大概5000个左右，智慧垃圾箱作为智慧城市的子系统可极大提升果皮箱管理的效率，通过传感器对果皮箱的满溢和火灾隐情及时监测及时发现。</p>
+
+						<br />
+						<h4>设计目标</h4>
+						<ul>
+							<li>提升良好的城市环境，提高市民满意度。</li>
+							<li>提升工作效率，提高管理效率。</li>
+							<li>及时监测火灾隐情，提升公共安全。</li>
+							<li>大数据分析，分析各街道和时间段垃圾产生数量，合理进行果皮箱的间隔和数量的调控。</li>
+						</ul>
+
+						<br />
+						<h4>工作原理</h4>
+						<p>通过安装在每个分类桶的探测器，实时获取垃圾满溢和火灾隐患信息，该探测器每间隔5秒通过超声和红外探头检测一次垃圾桶状态的变化，如果垃圾桶状态发生变化，则立即发送信号到管理后台，同时环卫工人和管理人员手机端APP同时收到信息。</p>
+
+						<p>系统组成，包含了垃圾箱/果皮箱的探测器（NB-IoT），云端后台软件，管理人员手机端APP。</p>
+						<br />
+
+						<div align="center">
+							<img src="../img/applications/recycle-bin/smart-bin.jpg" alt="集成满溢传感器，通过NB-IoT联网的智能垃圾箱、果皮箱"  />
+						</div>
+
+						<p>安装位置在垃圾箱/果皮箱正上方的盖板，安装方式可以为螺丝固定、粘贴或强磁。</p>
+
+						<br />
+						<h4>主要功能</h4>
+
+						<div align="center">
+							<img src="../img/applications/recycle-bin/ui.jpg" alt="智慧城市垃圾箱巡检、果皮箱管理，智能监测平台"  />
+						</div>
+						<p><strong>1、实时监控果皮箱状态</strong></p>
+						<p>系统可以实时显示果皮箱满溢情况，统计福田区果皮箱满溢数、统计各时间段内各街道果皮箱满溢情况，方便管理人员对果皮箱的监控及管理。</p>
+
+						<p><strong>2、统计功能</strong></p>
+						<p>能够统计福田区果皮箱每天和每月各个地段和时间节点果皮箱的使用率。</p>
+
+						<p><strong>3、监测功能</strong></p>
+						<p>管理人员可以在控制室随时了解福田区果皮箱的分布情况和满溢情况，大数据分析可在垃圾产生的高峰时间和高峰路段进行调配和管理。</p>
+
+						<p><strong>4、权限控制功能</strong></p>
+						<p>多级权限控制功能，方便对相关信息的控制和保密。</p>
 
 					</div>
 
@@ -136,13 +176,8 @@
 				 <div class="widget">
 				 	<h4 class="widgetheading">分类</h4>
 				 	<ul class="tags">
-				 		<li><a href="../portfolio.html#factory">数字工厂</a></li>
 				 		<li><a href="../portfolio.html#city">智慧城市</a></li>
 				 		<li><a href="../portfolio.html#asset">资产管理</a></li>
-				 		<li><a href="../portfolio.html#loan">融资租赁</a></li>
-				 		<li><a href="../portfolio.html#food">农业</a></li>
-				 		<li><a href="../portfolio.html#logistic">物流</a></li>
-				 		<li><a href="../portfolio.html#human">人员管理</a></li>
 				 		<li><a href="../portfolio.html">所有案例</a></li>
 				 	</ul>
 				 </div>
