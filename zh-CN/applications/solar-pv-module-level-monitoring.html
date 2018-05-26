@@ -33,6 +33,40 @@
 <link id="bodybg" href="../bodybg/bg1.css" rel="stylesheet" type="text/css" />
 <link href="../css/languages.min.css" rel="stylesheet" />
 
+<style>
+.container1 {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+.container1 img {
+    width: 100%;
+    height: auto;
+}
+
+.container1 .btn1 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight:bold;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container1 .btn1:hover {
+    background-color: black;
+}
+</style>
+
 </head>
 <body>
 
@@ -102,11 +136,13 @@
 			<div class="col-lg-8">
 				<h1 class="ssmall">NxSensor™组件级传感装置与接线盒，助力实现智慧光伏</h1>
 
-<!-- 				<br />
-				<img src="../img/applications/machine21.jpg" alt=""  class="img-responsive" /> -->
+				<!-- <br /> -->
+				<div class="container1">
+				  <img src="../img/applications/solar-smart-junction-box/solar-banner.jpg" alt="Snow" >
+				  <button  onclick="window.open('http://iot.wiihey.com/solar-desktop')" class="btn1"><i class="fa fa-hand-o-right fa-1x"></i>&nbsp;&nbsp;进入展示页面</button>
+				</div>
 
-
-				<br />
+				<!-- <br /> -->
 
 				<ul class="nav nav-tabs">
 					<li class="active"><a href="#one" data-toggle="tab"><i class="icon-briefcase"></i>解决方案</a></li>
@@ -317,7 +353,8 @@
 					<h4 class="widgetheading">下载</h4>
 					<ul class="recent">
 						<li>
-							<h6>（略）</h6>
+							<img src="../img/pdf_icon.png" class="pull-left" alt=""  width="24"/>
+							<h6><a href="../resources/brochure-wiihey-solar-solution.pdf"> 产品介绍：NxSensor™</a></h6>
 						</li>
 						<br />
 					</ul>
