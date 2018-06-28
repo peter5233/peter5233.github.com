@@ -76,6 +76,3 @@ Disallow: /zh-CN/applications/machine_leasing.html
 Disallow: /zh-CN/resources/whitepaper_pdm_va.pdf
 Disallow: /zh-CN/applications/machine_hoister.html
 Disallow: /zh-CN/applications/machine_farm.html
-
-
-Sitemap: /sitemap_location.xml
