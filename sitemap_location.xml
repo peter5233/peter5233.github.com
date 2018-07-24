@@ -130,6 +130,154 @@
   </url>
 
   <url>
+    <loc>http://wiihey.com/en/products/cables.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/audio-stereo-auxiliary-aux-cable-male-to-male-jack-custom-length.jpg</image:loc>
+       <image:caption>Coiled 3.5mm male to 3.5mm male audio cable used for cars, home stereo, speakers, smartphones, tablets and speakers and more. Bi-directional audio jack extension converter cable. Gold plated. Custom length available</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/audio-stereo-aux-cable-male-to-male-jack-90-degree-right-angle.jpg</image:loc>
+       <image:caption>3.5mm Stereo Audio Cable / Auxiliary Aux Cable - Male to Male With 90 Degree Right Angle. Gold plated. Custom length available!</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/audio-aux-cable-3-pin-adapter-female-jack-connector.jpg</image:loc>
+       <image:caption>3.5mm Female Jack to 3-Pin Connector Audio Aux Adapter Cable. Custom length available</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/usb-micro-right-angle-otg-host-to-mini-left-angle-adapter-cable.jpg</image:loc>
+       <image:caption>Mini USB male 5pin to 90 Degree Right Angled Micro USB Male 5pin data charger cable. This cable allows you to connect a portable hard disk (having a mini USB port) to your Android smartphone/tablet. Custom length available</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/usb-cable-micro-female-to-4-pin-connector.jpg</image:loc>
+       <image:caption>Micro USB connector to a single piece 4 pin connector. Connects any micro USB device to USB pins on your motherboard. Custom length available</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/usb-cable-female-to-male-right-angle.jpg</image:loc>
+       <image:caption>This USB extension cable will make it easy for you to extend your USB cable when it won't reach. . Custom length available</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/usb-cable-male-female-panel-mount.jpg</image:loc>
+       <image:caption>Ideal for extending your existing USB cable, or to use USB device such as memory stick on your desk instead of inserting it to the back of PC.Custom length available</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/dc-power-jack-cable-2-pin-connector.jpg</image:loc>
+       <image:caption>5.5/2.1mm DC Power Jack to 2-Pin Connector Adapter Cable. Custom length available</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/dc-usb-cable-female-jack-to-2-pin-connector-power-charge.jpg</image:loc>
+       <image:caption>USB Female to JST PH 2-pin Connector Plug Male Power Supply Cable</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/dc-usb-cable-female-jack-to-2-pin-connector-power-charge-2.jpg</image:loc>
+       <image:caption>USB Female to JST XH 2-pin Connector Plug Female Power Supply Cable</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/dc-usb-5v-power-supply-connector-cable-adapter.jpg</image:loc>
+       <image:caption>USB Male to 3.5mm DC 5V Charger Connector Power Supply Cable</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/hdml-basic-cable.jpg</image:loc>
+       <image:caption>HDMI Type-A Male to Type-A Male Cabl</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/icon/hdmi-a-c-d.jpg</image:loc>
+       <image:caption>HDMI Type-A to Mini/Micro HDMI Type-C/D Cable</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/audio-cable.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/audio-stereo-auxiliary-aux-cable-male-to-male-jack-custom-length.jpg</image:loc>
+       <image:caption>Coiled 3.5mm male to 3.5mm male audio cable used for cars, home stereo, speakers, smartphones, tablets and speakers and more. Bi-directional audio jack extension converter cable. Gold plated. Custom length available</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/audio-cable-right-angled.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/audio-stereo-aux-cable-male-to-male-jack-90-degree-right-angle.jpg</image:loc>
+       <image:caption>3.5mm Stereo Audio Cable / Auxiliary Aux Cable - Male to Male With 90 Degree Right Angle. Gold plated. Custom length available!</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/audio-cable-female-to-3-pin-connector.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/audio-aux-cable-3-pin-adapter-female-jack-connector.jpg</image:loc>
+       <image:caption>3.5mm Female Jack to 3-Pin Connector Audio Aux Adapter Cable. Custom length available</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/usb-micro-to-mini.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/usb-micro-right-angle-otg-host-to-mini-left-angle-adapter-cable.jpg</image:loc>
+       <image:caption>Mini USB male 5pin to 90 Degree Right Angled Micro USB Male 5pin data charger cable. This cable allows you to connect a portable hard disk (having a mini USB port) to your Android smartphone/tablet. Custom length available</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/usb-micro-to-4-pin.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/usb-cable-micro-female-to-4-pin-connector.jpg</image:loc>
+       <image:caption>Micro USB connector to a single piece 4 pin connector. Connects any micro USB device to USB pins on your motherboard. Custom length available</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/usb-male-to-female.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/usb-cable-female-to-male-right-angle.jpg</image:loc>
+       <image:caption>This USB extension cable will make it easy for you to extend your USB cable when it won't reach. . Custom length available</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/usb-male-to-female-panel-mount.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/usb-cable-male-female-panel-mount.jpg</image:loc>
+       <image:caption>Ideal for extending your existing USB cable, or to use USB device such as memory stick on your desk instead of inserting it to the back of PC.Custom length available</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/dc-power-jack-to-2-pin.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/dc-power-jack-cable-2-pin-connector.jpg</image:loc>
+       <image:caption>5.5/2.1mm DC Power Jack to 2-Pin Connector Adapter Cable. Custom length available</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/dc-usb-to-2-pin-male.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/dc-usb-cable-female-jack-to-2-pin-connector-power-charge.jpg</image:loc>
+       <image:caption>USB Female to JST PH 2-pin Connector Plug Male Power Supply Cable</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/dc-usb-to-2-pin-male-2.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/dc-usb-cable-female-jack-to-2-pin-connector-power-charge-2.jpg</image:loc>
+       <image:caption>USB Female to JST XH 2-pin Connector Plug Female Power Supply Cable</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/dc-usb-to-5v-connector.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/dc-usb-5v-power-supply-connector-cable-adapter.jpg</image:loc>
+       <image:caption>USB Male to 3.5mm DC 5V Charger Connector Power Supply Cable</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/hdmi-cable.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/hdml-basic-cable.jpg</image:loc>
+       <image:caption>HDMI Type-A Male to Type-A Male Cabl</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://wiihey.com/en/products/cables/hdmi-types-adapter.html</loc>
+    <image:image>
+       <image:loc>http://wiihey.com/en/img/products/cables/gallery/hdmi-a-c-d.jpg</image:loc>
+       <image:caption>HDMI Type-A to Mini/Micro HDMI Type-C/D Cable</image:caption>
+    </image:image>
+  </url>
+
+
+  <url>
     <loc>http://www.wiihey.com/zh-CN/index.html</loc>
   </url>
   <url>
