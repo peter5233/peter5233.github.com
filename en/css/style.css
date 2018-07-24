@@ -951,6 +951,18 @@ form#commentform textarea {
   background-image: linear-gradient(to right, #62c2e4, #62c2e4 12.5%, #669ae1 12.5%, #669ae1 25%, #c49cde 25%, #c49cde 37.5%, #db9dbe 37.5%, #db9dbe 50%, #f0776c 50%, #f0776c 62.5%, #fecf71 62.5%, #fecf71 75%, #c4e17f 75%, #c4e17f 87.5%, #99cc66 87.5%, #99cc66);
 }
 
+.colorgraph3 {
+  height: 3px;
+  border-top: 0;
+  background: #cccccc;
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(left, #cccccc, #cccccc 12.5%, #cccccc 12.5%, #cccccc 25%, #cccccc 25%, #cccccc 37.5%, #cccccc 37.5%, #cccccc 50%, #cccccc 50%, #cccccc 62.5%, #cccccc 62.5%, #cccccc 75%, #cccccc 75%, #cccccc 87.5%, #cccccc 87.5%, #cccccc);
+  background-image: -moz-linear-gradient(left, #cccccc, #cccccc 12.5%, #cccccc 12.5%, #cccccc 25%, #cccccc 25%, #cccccc 37.5%, #cccccc 37.5%, #cccccc 50%, #cccccc 50%, #cccccc 62.5%, #cccccc 62.5%, #cccccc 75%, #cccccc 75%, #cccccc  87.5%, #cccccc 87.5%, #cccccc);
+  background-image: -o-linear-gradient(left, #cccccc, #cccccc 12.5%, #cccccc 12.5%, #cccccc 25%, #cccccc 25%, #cccccc 37.5%, #cccccc 37.5%, #cccccc 50%, #cccccc 50%, #cccccc 62.5%, #cccccc 62.5%, #cccccc 75%, #cccccc 75%, #cccccc 87.5%, #cccccc 87.5%, #cccccc);
+  background-image: linear-gradient(to right, #cccccc, #cccccc 12.5%, #cccccc 12.5%, #cccccc 25%, #cccccc 25%, #cccccc 37.5%, #cccccc 37.5%, #cccccc 50%, #cccccc 50%, #cccccc 62.5%, #cccccc 62.5%, #cccccc 75%, #cccccc 75%, #cccccc 87.5%, #cccccc 87.5%, #cccccc);
+}
+
+
 form.register-form .row {
 	margin-bottom:0;
 }

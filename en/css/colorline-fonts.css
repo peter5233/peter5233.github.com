@@ -6,6 +6,15 @@
 	display:inline-block !important;
 }
 
+.color-line-title-none {
+	font-size: 18px !important;
+    font-weight: bold !important;
+	/*color: #666 !important;*/
+	padding-top: 8px !important;
+	display:inline-block !important;
+}
+
+
 .color-line-desc {
 	/*font-size: 14px !important;*/
 	/*padding-top: 0px !important;*/
