@@ -1,13 +1,14 @@
 
 /* ==== Google font ==== */
-@import url('google-fonts.css');
+/*@import url('google-fonts.css');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900|Open+Sans:300,400,600,700');
 
-/* === prettify === */
-@import url('../js/google-code-prettify/prettify.css');
 /* === fontawesome === */
-@import url('font-awesome.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
 /* === custom icon === */
-@import url('custom-fonts.css');
+/*@import url('custom-fonts.css');*/
+
 /* ==== overwrite bootstrap standard ==== */
 @import url('theme.css');
 @import url('animate.css');
