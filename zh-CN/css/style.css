@@ -1,13 +1,14 @@
 
 /* ==== Google font ==== */
-@import url('google-fonts.css');
+/*@import url('google-fonts.css');*/
 
 /* === prettify === */
-@import url('../js/google-code-prettify/prettify.css');
+/*@import url('../js/google-code-prettify/prettify.css');*/
 /* === fontawesome === */
-@import url('font-awesome.css');
+@import url('https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 /* === custom icon === */
-@import url('custom-fonts.css');
+/*@import url('custom-fonts.css');*/
 /* ==== overwrite bootstrap standard ==== */
 @import url('theme.css');
 @import url('animate.css');
@@ -678,14 +679,14 @@ section.callaction {
     z-index:120;
 }
 
-#parallax1{
+/*#parallax1{
 	background-image: url(../img/parallax/33.jpg);
     background-position: center;
     background-repeat: no-repeat;
     display:block;
     position:relative;
     z-index:120;
-}
+}*/
 /*212,7,8,d*/
 
 /*#parallax1:after {
