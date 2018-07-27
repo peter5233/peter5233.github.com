@@ -1,6 +1,5 @@
 
 /* ==== Google font ==== */
-/*@import url('google-fonts.css');*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900|Open+Sans:300,400,600,700');
 
 /* === fontawesome === */
@@ -2567,33 +2566,7 @@ a.btn.btn-wide {
 .bgr .bg.bg1 {
 	background: url(../img/bodybg/bg1.png) repeat left top;
 }
-.bgr .bg.bg2 {
-	background: url(../img/bodybg/bg2.png) repeat left top;
-}
-.bgr .bg.bg3 {
-	background: url(../img/bodybg/bg3.jpg) repeat left top;
-}
-.bgr .bg.bg4 {
-	background: url(../img/bodybg/bg4.png) repeat left top;
-}
-.bgr .bg.bg5 {
-	background: url(../img/bodybg/bg5.png) repeat left top;
-}
-.bgr .bg.bg6 {
-	background: url(../img/bodybg/bg6.png) repeat left top;
-}
-.bgr .bg.bg7 {
-	background: url(../img/bodybg/bg7.png) repeat left top;
-}
-.bgr .bg.bg8 {
-	background: url(../img/bodybg/bg8.jpg) repeat left top;
-}
-.bgr .bg.bg9 {
-	background: url(../img/bodybg/bg9.png) repeat left top;
-}
-.bgr .bg.bg10 {
-	background: url(../img/bodybg/bg10.png) repeat left top;
-}
+
 
 #accent_color{
 	color: #fff;
