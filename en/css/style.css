@@ -2616,3 +2616,32 @@ img.nobottom{
 	/*vertical-align:top !important;*/
 	/*display: block !important;*/
 }
+
+
+/* dropdown-menu-layer */
+/* ============== self added ======================= */
+.root-menu {
+	font-size: 18px !important;
+}
+
+.dropdown-menu-layer-1 {
+	font-size: 16px !important;
+    font-weight: bold !important;
+	color: #666 !important;
+}
+
+.dropdown-menu-layer-2 {
+	font-size: 14px !important;
+    /*font-weight: bold !important;*/
+}
+
+.tab-name {
+	font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+
+.big-p-font {
+	font-size: 24px !important;
+	line-height: 120% !important;
+}

@@ -431,7 +431,6 @@
 <script src="https://cdn.bootcss.com/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="https://cdn.bootcss.com/flexslider/2.2.0/jquery.flexslider-min.js"></script>
-<script src="plugins/flexslider/flexslider.config.js"></script>
 
 <!-- <script src="js/stellar.js"></script> -->
 <!-- <script src="js/classie.js"></script> -->
@@ -449,6 +448,45 @@ window.onload = function()
 	    alert('您正在使用IE浏览器，推荐使用Chrome、Firfox、Safari，以提高安全性和舒适性，并获得访问本网站的最佳体验!');
 	}
 }
+</script>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$('.testimonialslide').flexslider({
+	animation: "slide",
+	slideshow: false,
+	directionNav:false,
+	controlNav: true
+	});
+
+	$('.postslider').flexslider({
+        // Primary Controls
+        controlNav          : true,              //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+        directionNav        : true,              //Boolean: Create navigation for previous/next navigation? (true/false)
+       prevText: "",           //String: Set the text for the "previous" directionNav item
+    nextText: "",               //String: Set the text for the "next" directionNav item
+        // Special properties
+        controlsContainer   : "",                //{UPDATED} Selector: USE CLASS SELECTOR. Declare which container the navigation elements should be appended too. Default container is the FlexSlider element. Example use would be ".flexslider-container". Property is ignored if given element is not found.
+        manualControls      : "",                //Selector: Declare custom control navigation. Examples would be ".flex-control-nav li" or "#tabs-nav li img", etc. The number of elements in your controlNav should match the number of slides/tabs.
+        sync                : "",                //{NEW} Selector: Mirror the actions performed on this slider with another slider. Use with care.
+        asNavFor            : "",                //{NEW} Selector: Internal property exposed for turning the slider into a thumbnail navigation for another slider
+	});
+
+	$('.main-slider').flexslider({
+        // Primary Controls
+        controlNav          : true,              //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+        directionNav        : true,              //Boolean: Create navigation for previous/next navigation? (true/false)
+       prevText: "",           //String: Set the text for the "previous" directionNav item
+    nextText: "",               //String: Set the text for the "next" directionNav item
+        // Special properties
+        controlsContainer   : "",                //{UPDATED} Selector: USE CLASS SELECTOR. Declare which container the navigation elements should be appended too. Default container is the FlexSlider element. Example use would be ".flexslider-container". Property is ignored if given element is not found.
+        manualControls      : "",                //Selector: Declare custom control navigation. Examples would be ".flex-control-nav li" or "#tabs-nav li img", etc. The number of elements in your controlNav should match the number of slides/tabs.
+        sync                : "",                //{NEW} Selector: Mirror the actions performed on this slider with another slider. Use with care.
+        asNavFor            : "",                //{NEW} Selector: Internal property exposed for turning the slider into a thumbnail navigation for another slider
+	});
+
+});
 </script>
 
 </body>
