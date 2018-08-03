@@ -49,12 +49,44 @@
   <url>
     <loc>http://www.wiihey.com/en/applications/manhole-cover-monitoring.html</loc>
     <image:image>
-       <image:loc>http://www.wiihey.com/en/img/applications/manhole/smart-manhole-cover-sensor.png</image:loc>
-       <image:caption>Intelligent manhole cover and manhole sensor</image:caption>
+       <image:loc>http://www.wiihey.com/en/img/applications/manhole/manhole-cover-smart-city-maintenance.jpg</image:loc>
+       <image:caption>Manhole cover, protecting its access, opened or closed status, and anti-theft, is crucial to a city's operations.</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/applications/manhole/manhole-cover-losses-accident.jpg</image:loc>
+       <image:caption>Manhole cover losses cause damages to public safety in China.</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/applications/manhole/manhole-cover-losses-danger.jpg</image:loc>
+       <image:caption>Manhole cover losses cause fall-in accidents in China.</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/applications/manhole/manhole-lock-protector.jpg</image:loc>
+       <image:caption>Use manhole lock and protector to prevent people from opening the manhole cover.</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/applications/manhole/smart-manhole-cover-sensor.jpg</image:loc>
+       <image:caption>Manhole cover lock, manhole cover open detector, manhole cover anti-theft.</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/manhole-cover-open-detector-how-it-works-1.jpg</image:loc>
+       <image:caption>Manhole cover open detector with the status of the manhole being opened</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/manhole-cover-open-detector-how-it-works-2.jpg</image:loc>
+       <image:caption>Manhole cover open detector with the status of the being closed</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/applications/manhole/manhole_topology.jpg</image:loc>
+       <image:caption>Architecture of manhole cover monitoring system, wireless open detector sensor.</image:caption>
     </image:image>
     <image:image>
        <image:loc>http://www.wiihey.com/en/img/applications/manhole/smart-manhole-cover-installation.jpg</image:loc>
-       <image:caption>Manhole cover remote monitoring and security alerts</image:caption>
+       <image:caption>Installation of Manholes covers and smart sensors, smart city case study.</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/applications/manhole/manhole_ui.jpg</image:loc>
+       <image:caption>Cloud based GIS manhole monitoring dashboard</image:caption>
     </image:image>
   </url>
   <url>
@@ -111,6 +143,62 @@
   </url>
   <url>
     <loc>http://www.wiihey.com/en/products/wiilsw-manhole-cover-sensor.html</loc>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/applications/manhole/smart-manhole-cover-sensor.jpg</image:loc>
+       <image:caption>Manhole cover, open detection, manhole monitoring, manhole protector, open detector</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/wiilsw_dimension.jpg</image:loc>
+       <image:caption>Dimensions of the manhole cover sensor and open detector</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/topology/top_v5_wiilsw_unb.png</image:loc>
+       <image:caption>Send wireless alarm alert message by UNB-IOT, sigfox, LoraWan.</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/topology/top_v5_wiilsw_nb.png</image:loc>
+       <image:caption>Send wireless alarm alert message by NB-IoT, GPRS, 5G.</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/manhole-cover-open-detector-suite.jpg</image:loc>
+       <image:caption>manhole lock, manhole protector, manhole cover open detector</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/manhole3.jpg</image:loc>
+       <image:caption>manhole cover open detector, manhole open detection, manhole sensor, the front view</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/manhole1.jpg</image:loc>
+       <image:caption>manhole cover open detector, manhole open detection, manhole sensor, the side view</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/manhole2.jpg</image:loc>
+       <image:caption>manhole cover open detector, manhole open detection, manhole sensor, the front view with foundations</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/manhole4.jpg</image:loc>
+       <image:caption>manhole cover open detector, manhole open detection, manhole sensor, the side view with foundations</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/street1.jpg</image:loc>
+       <image:caption>manhole cover open detector, manhole open detection, manhole sensor, how to install and mount on the manhole wall</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/street2.jpg</image:loc>
+       <image:caption>case study for manhole cover sensor and open detector in Smart city, China.</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/street3.jpg</image:loc>
+       <image:caption>case study 2 for manhole cover sensor and open detector in Smart city, China.</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/street4.jpg</image:loc>
+       <image:caption>case study 3 for manhole cover sensor and open detector in Smart city, China.</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.wiihey.com/en/img/products/wiilsw/street5.jpg</image:loc>
+       <image:caption>case study 4 for manhole cover sensor and open detector in Smart city, China.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>http://www.wiihey.com/en/products/wiimatrix-iot-data-platform.html</loc>
