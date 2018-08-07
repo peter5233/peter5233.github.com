@@ -641,7 +641,7 @@ section.callaction {
 #content {
 	position:relative;
 	background:#fff;
-	padding:60px 0 40px 0;
+	padding:40px 0 40px 0;
 }
 
 #content img {
@@ -2339,14 +2339,32 @@ article img.pull-right, article .align-right{
 	.main-slider .flex-caption {
 		bottom: 0;
 		text-align: center;
+		width: 100%;
 	}
 	.main-slider .flex-caption p {
 		display: none;
 	}
-
+	.main-slider .flex-caption h3 {
+		font-size: 20px;
+	}
 	.cta-btn {
 		float: none;
 		text-align: center;
+	}
+	#content h1{
+		font-size: 18px;
+	}
+	#content h3{
+		font-size: 18px;
+	}
+	#content .container img{
+		width: 100% !important;
+	}
+	.divider{
+		display: none;
+	}
+	.container br{
+		display: none;
 	}
 
 }
