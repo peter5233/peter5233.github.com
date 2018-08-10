@@ -2351,9 +2351,9 @@ article img.pull-right, article .align-right{
 		float: none;
 		text-align: center;
 	}
-	#content h1{
+/*	#content h1{
 		font-size: 18px;
-	}
+	}*/
 	#content h3{
 		font-size: 18px;
 	}
@@ -2365,6 +2365,13 @@ article img.pull-right, article .align-right{
 	}
 	.container br{
 		display: none;
+	}
+	.index-scroll-img{
+		height: 270px;
+		object-fit: cover;
+	}
+	.index-h1-digital{
+		font-size: 26px;
 	}
 
 }
